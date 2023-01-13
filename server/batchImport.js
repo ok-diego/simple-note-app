@@ -10,7 +10,7 @@ const options = {
   useUnifiedTopology: true,
 };
 
-const { books } = require("./data");
+const { books } = require("./src/data");
 
 const batchImport = async (req, res) => {
   const client = new MongoClient(MONGO_URI, options);
