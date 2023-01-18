@@ -3,26 +3,23 @@
 const express = require("express");
 const morgan = require("morgan");
 
-const app = express();
+//const app = express();
 
 const PORT = 8000;
 
 const { getBooks } = require("./handlers");
 
-// This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
-app
+express()
+  // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
   .use(morgan("tiny"))
 
   // this is allowing json format for the body
-  .use(express.json)
+  .use(express.json())
 
-  // Any requests for static files will go into the public folder
+  // any requests for static files will go into the public folder
   .use(express.static("public"))
 
-  // .get("/", (req, res) => {
-  //   res.send("Hello world");
-  // });
-
+  // set endpoints
   .get("/api/get-books", getBooks)
 
   // this our catch all endpoint

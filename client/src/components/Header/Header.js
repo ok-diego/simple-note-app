@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 const Header = () => {
-  return <Wrapper></Wrapper>;
+  return (
+    <Wrapper>
+      <h3>Simple Note</h3>
+    </Wrapper>
+  );
 };
 const Wrapper = styled.div`
   display: flex;
@@ -10,6 +14,9 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 50px;
+  background-color: azure;
+  padding: 0 0 0 3%;
+  font-weight: 400;
 `;
 
 export default Header;
