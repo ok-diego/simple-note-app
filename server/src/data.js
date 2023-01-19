@@ -1204,6 +1204,2678 @@ const books = {
       },
     ],
   ],
+  BK02: [
+    [
+      {
+        readingJourney: {
+          contentType: "image/jpeg",
+          url: "https://img1.od-cdn.com/ImageType-100/1523-1/{EB125E3D-59CC-4D6A-AEBF-729EDFB18BE7}Img100.jpg",
+          title: "The Upside of Stress",
+          color: "#A5A5A5",
+          format: "ebook",
+          text: "The Upside of Stress",
+          url: "https://share.libbyapp.com/title/1991307",
+          titleId: "1991307",
+          author: "Kelly McGonigal",
+          publisher: "Penguin Publishing Group",
+          isbn: "9780698170803",
+          percent: 0.7719140608228979,
+        },
+      },
+    ],
+    [
+      {
+        timestamp: 1669865124000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.771024525939177,
+        color: "#FFE0EC",
+        quote:
+          "any moment can become a turning point in how you experience stress, if you choose to make it one.",
+      },
+      {
+        timestamp: 1669865124000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.771024525939177,
+        color: "#FFE0EC",
+        quote:
+          "Any new beginning or transition is an opportunity to think about how you want to challenge yourself.",
+      },
+      {
+        timestamp: 1669865124000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.771024525939177,
+        color: "#FFE0EC",
+        quote: "“How do I want to grow from stress?”",
+      },
+      {
+        timestamp: 1669606988000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.763868801431127,
+        color: "#FFE0EC",
+        quote:
+          "When I committed myself to the process of embracing stress, I didn’t anticipate the biggest way it would affect my everyday experience of life",
+      },
+      {
+        timestamp: 1669031379000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.762079910554562,
+        color: "#FFE0EC",
+        quote:
+          "When you view stress as inevitably harmful and something to avoid, you become more likely to feel all of these things: doubt about your ability to handle the challenges you face, alone in your suffering, and unable to find meaning in your struggles. In contrast, accepting and embracing stress can transform these states into a totally different experience. Self-doubt is replaced by confidence, fear becomes courage, isolation turns into connection, and suffering gives rise to meaning. And all without getting rid of the stress.",
+      },
+      {
+        timestamp: 1669031310000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.760291019677996,
+        color: "#FFE0EC",
+        quote:
+          "A better question for each of us to ask ourselves, as individuals trying to cope with stress, might be: Do I believe I have the capacity to transform stress into something good?",
+      },
+      {
+        timestamp: 1669030993000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.751346404293381,
+        color: "#FFE0EC",
+        quote:
+          "We all tell stories, and the stories we choose to tell can create a culture of resilience. How do you tell the stories of your family? Your community? Your company? Your own life? Consider how you might make room for stories that reflect the strength, courage, compassion, and resilience in yourself and in your community.",
+      },
+      {
+        timestamp: 1667733917000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.74061252236136,
+        color: "#FFE0EC",
+        quote:
+          "One of the biggest barriers to vicarious resilience is pity. When you pity someone, you feel sorry for their suffering but do not see their strength, and you do not see yourself in their story",
+      },
+      {
+        timestamp: 1666441594000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.737035384615385,
+        color: "#FFE0EC",
+        quote:
+          "when people hear, read, or see restorative narratives, they feel more hopeful, courageous, and inspired to create change in their own lives",
+      },
+      {
+        timestamp: 1665581066000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.717357423971378,
+        color: "#FFE0EC",
+        quote:
+          "Seeing the upside doesn’t fix a difficult situation, but it does help balance the distress with hope.",
+      },
+      {
+        timestamp: 1665580649000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.711990483005367,
+        color: "#FFE0EC",
+        quote:
+          "For the next two minutes, try to think of [the experience] as an opportunity to grow, learn, or become stronger. Think of benefits you may have gained from your experience, such as self-understanding, insight, or improvement in a relationship. Actively focus on the thoughts, feelings, and physical responses you have as you think about ways you benefited from your experience.",
+      },
+      {
+        timestamp: 1664799769000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.694101091234347,
+        color: "#FFE0EC",
+        quote:
+          "people routinely report both growth and harm from the same traumatic event",
+      },
+      {
+        timestamp: 1664799694000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.694101091234347,
+        color: "#FFE0EC",
+        quote:
+          "Just because people are able to see positive changes in themselves or their lives doesn’t mean they aren’t still in pain",
+      },
+      {
+        timestamp: 1664799646000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.694101091234347,
+        color: "#FFE0EC",
+        quote: "life",
+      },
+      {
+        timestamp: 1664368896000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.688734150268336,
+        color: "#FFE0EC",
+        quote:
+          "we feel deep gratitude and joy for the blessings in our lives, and truly enjoy the time that we get to spend with each other.",
+      },
+      {
+        timestamp: 1664210283000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.654745169946333,
+        color: "#FFE0EC",
+        quote:
+          "When I’m going through a particularly difficult time, I find it helpful to view my past experiences as resources to help me through the current crisis.",
+      },
+      {
+        timestamp: 1664210253000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.654745169946333,
+        color: "#FFE0EC",
+        quote:
+          "There is a big difference between believing that every adversity has weakened me and knowing that some of these experiences have strengthened me",
+      },
+      {
+        timestamp: 1663323850000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.610022683363148,
+        color: "#FFE0EC",
+        quote:
+          "choosing to be the starting point of what you want is the best way to create the supportive community you seek",
+      },
+      {
+        timestamp: 1663154929000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.601078711985689,
+        color: "#FFE0EC",
+        quote: "May we all know our own strength",
+      },
+      {
+        timestamp: 1663154929000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.601078711985689,
+        color: "#FFE0EC",
+        quote: "May we all find peace",
+      },
+      {
+        timestamp: 1663154929000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.601078711985689,
+        color: "#FFE0EC",
+        quote: "May we all be supported through this suffering",
+      },
+      {
+        timestamp: 1663154929000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.601078711985689,
+        color: "#FFE0EC",
+        quote: "May we all know that we are not alone",
+      },
+      {
+        timestamp: 1662634113000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.561721932021467,
+        color: "#FFE0EC",
+        quote:
+          "caring for others can jump-start the oxytocin system, even if you have a genetic predisposition that makes a tend-and-befriend response less likely",
+      },
+      {
+        timestamp: 1662633896000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.55993373881932,
+        color: "#FFE0EC",
+        quote:
+          "you live forever, and it can’t protect you from everything. But what it does protect you from is stress",
+      },
+      {
+        timestamp: 1662633871000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.55814404293381,
+        color: "#FFE0EC",
+        quote: "Helping others doesn’t make",
+      },
+      {
+        timestamp: 1662203831000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.525944543828265,
+        color: "#FFE0EC",
+        quote:
+          "the future. Also think about what kind of positive impact you want to have on the people around you or society in general. . . . In the space below, write a few sentences that answer this question: How will learning in school help you be the kind of person you want to be, or help you make the kind of impact you want on the people around you or society in general?",
+      },
+      {
+        timestamp: 1662203824000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.524154847942755,
+        color: "#FFE0EC",
+        quote:
+          "Take a moment to think about what kind of person you want to be in",
+      },
+      {
+        timestamp: 1662203515000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.522366654740608,
+        color: "#FFE0EC",
+        quote:
+          "Instead of trying to prove yourself, you could focus on something bigger than yourself",
+      },
+      {
+        timestamp: 1661944655000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.516999069767442,
+        color: "#FFE0EC",
+        quote: "along the way.",
+      },
+      {
+        timestamp: 1661944610000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.515210876565295,
+        color: "#FFE0EC",
+        quote:
+          "increase your chance of reaching both your professional and bigger-than-self goals",
+      },
+      {
+        timestamp: 1661944610000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.515210876565295,
+        color: "#FFE0EC",
+        quote: "experience more joy and meaning",
+      },
+      {
+        timestamp: 1661944438000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.515210876565295,
+        color: "#FFE0EC",
+        quote:
+          "Rather than just trying to prove that you are good enough or better than others, you view your efforts as serving a purpose greater than yourself",
+      },
+      {
+        timestamp: 1661689185000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.504477209302326,
+        color: "#FFE0EC",
+        quote:
+          "Those who had helped someone else reported afterward that they felt more capable, competent, and useful than people who had spent the time on themselves.",
+      },
+      {
+        timestamp: 1661689185000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.504477209302326,
+        color: "#FFE0EC",
+        quote:
+          "changed how they felt about what they had to accomplish and their ability to handle the pressure",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "social caregiving system",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "reward system",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "attunement system",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "serotonin",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "dopamine",
+      },
+      {
+        timestamp: 1661608501000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.493743542039356,
+        color: "#FFE0EC",
+        quote: "oxytocin",
+      },
+      {
+        timestamp: 1661608478000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.491955348837209,
+        color: "#FFE0EC",
+        quote: "tend-and-befriend response,",
+      },
+      {
+        timestamp: 1661608478000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.491955348837209,
+        color: "#FFE0EC",
+        quote: "increases activity in three systems of your brain",
+      },
+      {
+        timestamp: 1661608399000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.491955348837209,
+        color: "#FFE0EC",
+        quote:
+          "The best way to understand how the tend-and-befriend response does this is to look at how it affects your brain. We’ve already seen that stress can increase levels of the neurohormone oxytocin, which activates our prosocial tendencies",
+      },
+      {
+        timestamp: 1661515302000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.481221359570662,
+        color: "#FFE0EC",
+        quote:
+          "if you are willing to rethink your stress response, it may help you recognize your strength and access your courage.",
+      },
+      {
+        timestamp: 1661345677000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.441865760286225,
+        color: "#FFE0EC",
+        quote: "you",
+      },
+      {
+        timestamp: 1661345677000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.441865760286225,
+        color: "#FFE0EC",
+        quote:
+          "Then put the energy to use, and ask yourself, “What action can I take, or what choice can I make, that is consistent with my goal in this moment?”",
+      },
+      {
+        timestamp: 1661345670000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.440075849731664,
+        color: "#FFE0EC",
+        quote:
+          "Instead of taking a deep breath to calm down, take a deep breath to sense the energy that is available to",
+      },
+      {
+        timestamp: 1661345403000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.436498389982111,
+        color: "#FFE0EC",
+        quote:
+          "It boosted participants’ perception of their resources to cope with stress. It shifted their cardiovascular stress responses from threat to challenge, without calming them down. They showed greater confidence and engagement, and less anxiety, shame, and avoidance. Objectively, they performed better",
+      },
+      {
+        timestamp: 1661345403000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.436498389982111,
+        color: "#FFE0EC",
+        quote: "mindset intervention",
+      },
+      {
+        timestamp: 1661260564000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.431132200357782,
+        color: "#FFE0EC",
+        quote:
+          "“When you feel anxious or stressed, think about how your stress response can actually be helpful.”",
+      },
+      {
+        timestamp: 1660911476000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.409665080500895,
+        color: "#FFE0EC",
+        quote:
+          "the tendency to have a challenge response, rather than a threat response, is associated with superior aging, cardiovascular health, and brain health.",
+      },
+      {
+        timestamp: 1660826216000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.384620500894454,
+        color: "#FFE0EC",
+        quote:
+          "“If you experience stress or anxiety, try to channel or use the energy those feelings may arouse in order to do your best.”",
+      },
+      {
+        timestamp: 1660825859000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.375675670840787,
+        color: "#FFE0EC",
+        quote:
+          "If you find yourself feeling anxious, simply remind yourself that your stress could be helping you do well.",
+      },
+      {
+        timestamp: 1660219749000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.357786493738819,
+        color: "#FFE0EC",
+        quote: "strength, resourcefulness, and hope",
+      },
+      {
+        timestamp: 1660218304000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.355997674418605,
+        color: "#FFE0EC",
+        quote:
+          "They were also more apt to take care of themselves, physically, emotionally, and spiritually. They built a reserve of strength that supported them in facing the challenges in their lives.",
+      },
+      {
+        timestamp: 1660218128000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.354208729874776,
+        color: "#FFE0EC",
+        quote:
+          "no matter what the circumstances, they must continue making choices—ones that could change the situation or, if that wasn’t possible, that could change how the situation affected them",
+      },
+      {
+        timestamp: 1660217911000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.347053094812165,
+        color: "#FFE0EC",
+        quote:
+          "Choosing to see the connection between stress and meaning can free you from the nagging sense that there is something wrong with your life or that you are inadequate to the challenges you face",
+      },
+      {
+        timestamp: 1659830782000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.343475134168157,
+        color: "#FFE0EC",
+        quote:
+          "Everyone has an Everest. Whether it’s a climb you chose, or a circumstance you find yourself in, you’re in the middle of an important journey",
+      },
+      {
+        timestamp: 1659008180000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.330953094812165,
+        color: "#FFE0EC",
+        quote:
+          "They recalled the personal reasons that had made them want to be foster parents and their belief that someone needed to step up and be willing to go through this stressful process for the sake of the child. They talked about what had led to Julie and Stephen’s decision to commit to this child in particular. Together, they found a point of view that put the year of stress into a bigger context.",
+      },
+      {
+        timestamp: 1658750140000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.327375134168157,
+        color: "#FFE0EC",
+        quote: "How we talk about stress matters",
+      },
+      {
+        timestamp: 1656154203000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.314853094812165,
+        color: "#FFE0EC",
+        quote:
+          "What made that memorable? What did you do that helped in this situation? What did you learn about yoursel",
+      },
+      {
+        timestamp: 1656153548000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.313064114490161,
+        color: "#FFE0EC",
+        quote:
+          "Unlike what many people think, mindfulness isn’t about relaxation or escaping the stress of the day. Instead, it is the ability to pay attention to and accept whatever thoughts, sensations, and emotions are happening",
+      },
+      {
+        timestamp: 1655811791000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.29159717352415,
+        color: "#FFE0EC",
+        quote:
+          "writing about personal values makes people feel more powerful, in control, proud, and strong. It also makes them feel more loving, connected, and empathetic toward others. It increases pain tolerance, enhances self-control, and reduces unhelpful rumination after a stressful experienc",
+      },
+      {
+        timestamp: 1655295021000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.277285330948122,
+        color: "#FFE0EC",
+        quote:
+          "stress seems to be an inevitable consequence of engaging in roles and pursuing goals that feed our sense of purpose",
+      },
+      {
+        timestamp: 1653997181000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.230774382826476,
+        color: "#FFE0EC",
+        quote:
+          "Your stress response doesn’t just give you energy. In many circumstances, it also motivates you to connect with others.",
+      },
+      {
+        timestamp: 1653654684000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.198574025044723,
+        color: "#FFE0EC",
+        quote:
+          "“There is always stress, so the only point is to make sure that it is useful to yourself and useful to others.”",
+      },
+      {
+        timestamp: 1653654432000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.184262468694097,
+        color: "#FFE0EC",
+        quote: "Cortisol and adrenaline are part of",
+      },
+      {
+        timestamp: 1653654432000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.184262468694097,
+        color: "#FFE0EC",
+        quote:
+          "the stress response, a set of biological changes that helps you cope with stressful situations",
+      },
+      {
+        timestamp: 1653654417000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.186051091234347,
+        color: "#FFE0EC",
+        quote:
+          "stress response predicts better long-term recovery from a traumatic event",
+      },
+      {
+        timestamp: 1653654387000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.184262468694097,
+        color: "#FFE0EC",
+        quote: "a stronger physical",
+      },
+      {
+        timestamp: 1653272262000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.12343946332737,
+        color: "#FFE0EC",
+        quote:
+          "say that they cope with stress proactively. For example, they are more likely to:",
+      },
+      {
+        timestamp: 1653272250000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.121650930232558,
+        color: "#FFE0EC",
+        quote:
+          "people who believe that stress can be helpful are more likely to",
+      },
+      {
+        timestamp: 1653272104000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.121650930232558,
+        color: "#FFE0EC",
+        quote:
+          "people who endorse a stress-is-harmful mindset are more likely to say that they cope with stress by trying to avoid it. For example, they are more likely to: \n\n \n\nTry to distract themselves from the cause of the stress instead of dealing with it. \n\nFocus on getting rid of their feelings of stress instead of taking steps to address its source. \n\nTurn to alcohol or other substances or addictions to escape the stress. \n\nWithdraw their energy and attention from whatever relationship, role, or goal is causing the stress.",
+      },
+      {
+        timestamp: 1652873973000,
+        chapter: "Introduction",
+        percent: 0.0626166726296959,
+        color: "#FFE0EC",
+        quote:
+          "the transformative power of choosing to see the upside of stress comes from its ability to change how you think about, and relate to, so many different aspects of ",
+      },
+      {
+        timestamp: 1647482486000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.754924776386404,
+        color: "#FFE0EC",
+        quote:
+          "Choosing to see the upside in our most painful experiences is part of how we can change our relationships with stress",
+      },
+      {
+        timestamp: 1647395588000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.738823953488372,
+        color: "#FFE0EC",
+        quote:
+          "genuine empathy. You must be willing to feel their distress and imagine yourself in their experience",
+      },
+      {
+        timestamp: 1647395565000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.738823953488372,
+        color: "#FFE0EC",
+        quote:
+          "How do you catch resilience and growth from another person’s suffering, instead of only sympathetic distress?",
+      },
+      {
+        timestamp: 1647395428000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.74061252236136,
+        color: "#FFE0EC",
+        quote:
+          ". It is not about passively witnessing resilience in another. It is about allowing yourself to be touched by their suffering and their strength.",
+      },
+      {
+        timestamp: 1643286984000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.708412110912343,
+        color: "#FFE0EC",
+        quote:
+          "the ability to notice the good as you cope with things that are difficult",
+      },
+      {
+        timestamp: 1643113364000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.701256601073345,
+        color: "#FFE0EC",
+        quote:
+          "When any good comes from suffering, the source of that growth resides in you—your strengths, your values, and how you choose to respond to adversity. It does not belong to the trauma.",
+      },
+      {
+        timestamp: 1643113037000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.69231252236136,
+        color: "#FFE0EC",
+        quote:
+          "I have a greater sense of closeness with, and compassion for, others. \n\nI discovered that I’m stronger than I thought I was. \n\nI have a greater appreciation for the value of my own life. \n\nI have a stronger religious faith. \n\nI established a new path for",
+      },
+      {
+        timestamp: 1642852749000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.667267620751342,
+        color: "#FFE0EC",
+        quote:
+          "The question, I told them, isn’t if you will ever have a setback or challenge at college, but what you will do when it happens",
+      },
+      {
+        timestamp: 1642852482000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.663690483005367,
+        color: "#FFE0EC",
+        quote: "It happened because he turned an adversity into an opportunity",
+      },
+      {
+        timestamp: 1642851979000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.658323542039356,
+        color: "#FFE0EC",
+        quote:
+          "“There’s a lot of room left, even if someone has experienced a lot of adversity, to rise above that and not be irreparably damaged,”",
+      },
+      {
+        timestamp: 1642733767000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.647589660107335,
+        color: "#FFE0EC",
+        quote:
+          "If avoiding suffering isn’t possible, what is the best way to think about the experience? “Given that it’s happened,” Seery asked, “does it mean your life is ruined?” He thinks his work gives a very clear answer. “People are not doomed to be damaged by adversity.”",
+      },
+      {
+        timestamp: 1642356418000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.645801091234347,
+        color: "#FFE0EC",
+        quote:
+          ". It’s easy to see the negative in suffering. “The tricky part,” he added, “is to see anything other than that.”",
+      },
+      {
+        timestamp: 1642356342000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.64401252236136,
+        color: "#FFE0EC",
+        quote:
+          "Whatever the most difficult experience of a person’s life, there was a good chance that it made that person stronger",
+      },
+      {
+        timestamp: 1642076023000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.636855778175313,
+        color: "#FFE0EC",
+        quote:
+          "The good that comes from difficult experiences isn’t from the stressful or traumatic event itself; it comes from you",
+      },
+      {
+        timestamp: 1642075769000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.635067209302326,
+        color: "#FFE0EC",
+        quote:
+          "Adversity can create resilience, and trauma often inspires personal growth.",
+      },
+      {
+        timestamp: 1641888893000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.631490017889088,
+        color: "#FFE0EC",
+        quote: "our own well-being",
+      },
+      {
+        timestamp: 1641888831000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.629700322003578,
+        color: "#FFE0EC",
+        quote:
+          "The social nature of stress is not something to fear. When you take a tend-and-befriend approach, even contagious stress can be strengthening. As we’ve seen, caring creates resilience, whether the altruism is a response to rescue us from our own suffering or simply a natural reaction to the pain of others. A sympathetic stress response to another person’s suffering can spark empathy and motivate helping, which in turn enhance",
+      },
+      {
+        timestamp: 1641887678000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.613600572450805,
+        color: "#FFE0EC",
+        quote:
+          "If there is something that you want to experience, or a community you wished were available to you, how can you be the starting point of creating it for others?",
+      },
+      {
+        timestamp: 1641887313000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.608234490161002,
+        color: "#FFE0EC",
+        quote:
+          "One of the most helpful mindset shifts you can make is to view yourself as the source of whatever support you want to experience.",
+      },
+      {
+        timestamp: 1641581925000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.0983945438282647,
+        color: "#FFE0EC",
+        quote:
+          "Every time you experience stress, your beliefs about it come to mind",
+      },
+      {
+        timestamp: 1639051292000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.608234490161002,
+        color: "#FFE0EC",
+        quote: "say his name. People did not fall out of my life.",
+      },
+      {
+        timestamp: 1639051249000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.606444794275492,
+        color: "#FFE0EC",
+        quote:
+          "People ask about my dad’s life and not just his death. People kept calling, even though I didn’t call back. People joined me in reminiscing about my husband and were not afraid to",
+      },
+      {
+        timestamp: 1638967515000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.595711127012522,
+        color: "#FFE0EC",
+        quote: "Just like me, this person knows what suffering feels like",
+      },
+      {
+        timestamp: 1638900202000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.584977459749553,
+        color: "#FFE0EC",
+        quote: "common humanity",
+      },
+      {
+        timestamp: 1638792558000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.584977459749553,
+        color: "#FFE0EC",
+        quote:
+          "When I’m down, I remind myself that there are lots of other people in the world feeling like I am. \n\nWhen things are going badly for me, I see the difficulties as a part of life that everyone goes through",
+      },
+      {
+        timestamp: 1638792069000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.581399570661896,
+        color: "#FFE0EC",
+        quote:
+          "when you don’t have a lot of support around you, it is easy to feel like you are the only one struggling.",
+      },
+      {
+        timestamp: 1638791779000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.57782168157424,
+        color: "#FFE0EC",
+        quote:
+          "When given the opportunity, people in difficult circumstances often leap at the chance to help others.",
+      },
+      {
+        timestamp: 1638515630000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.561721932021467,
+        color: "#FFE0EC",
+        quote:
+          "The act of helping others—whether through volunteering or simply connecting to your bigger-than-self goals—can unlock a biological potential for resilience.",
+      },
+      {
+        timestamp: 1638272994000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.550988264758497,
+        color: "#FFE0EC",
+        quote:
+          "When you help someone else in the middle of your own distress, you counter the downward spiral of defeat",
+      },
+      {
+        timestamp: 1638272863000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.549200071556351,
+        color: "#FFE0EC",
+        quote:
+          "The instinct to help when we, ourselves, are struggling plays an important role in preventing a defeat response",
+      },
+      {
+        timestamp: 1638272324000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.545622182468694,
+        color: "#FFE0EC",
+        quote:
+          "Difficult circumstances give rise to great acts of kindness because suffering provokes a basic need to help others.",
+      },
+      {
+        timestamp: 1638187412000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.540254597495528,
+        color: "#FFE0EC",
+        quote: "caring can actually amplify our resources",
+      },
+      {
+        timestamp: 1638187047000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.533100322003578,
+        color: "#FFE0EC",
+        quote:
+          "you work with or serve? What would they say about how your role helps them? How does your job support the greater mission of the company or the welfare of people in your community?",
+      },
+      {
+        timestamp: 1638187025000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.531310626118068,
+        color: "#FFE0EC",
+        quote: "role redesign",
+      },
+      {
+        timestamp: 1638187025000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.531310626118068,
+        color: "#FFE0EC",
+        quote:
+          "What if you described your job from the point of view of the people",
+      },
+      {
+        timestamp: 1638155449000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.527732737030412,
+        color: "#FFE0EC",
+        quote:
+          ". Reflecting on your bigger-than-self goals seems to have the same effect as helping others; it harnesses the positive motivation that comes with a tend-and-befriend response",
+      },
+      {
+        timestamp: 1638015774000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.522366654740608,
+        color: "#FFE0EC",
+        quote:
+          "getting the job would allow you to help others, or contribute to a larger mission",
+      },
+      {
+        timestamp: 1638015499000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.518788765652952,
+        color: "#FFE0EC",
+        quote:
+          "by focusing on helping others instead of proving themselves, they become more respected and better liked than people who spend more energy trying to impress others than they do supporting them",
+      },
+      {
+        timestamp: 1638015232000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.515210876565295,
+        color: "#FFE0EC",
+        quote:
+          "When your primary goal is to contribute to this “something bigger",
+      },
+      {
+        timestamp: 1638015232000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.515210876565295,
+        color: "#FFE0EC",
+        quote:
+          "how you see your role within your community—what you want to contribute, and the change you want to create",
+      },
+      {
+        timestamp: 1638014773000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.508055098389982,
+        color: "#FFE0EC",
+        quote:
+          "Your brain might tell you that you don’t have the time or energy, but that is exactly why you should do it",
+      },
+      {
+        timestamp: 1638014773000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.508055098389982,
+        color: "#FFE0EC",
+        quote: "do something for someone else",
+      },
+      {
+        timestamp: 1637927613000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.508055098389982,
+        color: "#FFE0EC",
+        quote:
+          "helping others is one of the most powerful motivation boosters that you can find.",
+      },
+      {
+        timestamp: 1637927590000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.508055098389982,
+        color: "#FFE0EC",
+        quote:
+          "choosing to be generous is a way to access the resilience that goes along with a tend-and-befriend response.",
+      },
+      {
+        timestamp: 1637927280000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.504477209302326,
+        color: "#FFE0EC",
+        quote:
+          "“When individuals feel time constrained, they should become more generous with their time—despite their inclination to be less so.”",
+      },
+      {
+        timestamp: 1637756349000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.500899320214669,
+        color: "#FFE0EC",
+        quote:
+          "In any situation where you feel powerless, doing something to support others can help you sustain your motivation and optimism.",
+      },
+      {
+        timestamp: 1637756057000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.495533237924866,
+        color: "#FFE0EC",
+        quote: "anytime you choose to help others, you activate this state",
+      },
+      {
+        timestamp: 1637668124000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.479432629695886,
+        color: "#FFE0EC",
+        quote:
+          "Embracing stress is a radical act of self-trust: View yourself as capable and your body as a resource",
+      },
+      {
+        timestamp: 1637584120000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.475853989266547,
+        color: "#FFE0EC",
+        quote:
+          "Choosing to view a racing heart as a resource is more than a mindset trick that can transform your physical stress response from threat to challenge. It can also change how you feel about yourself and about your ability to handle what life is asking of you. Most important, it inspires action—and in this way, embracing anxiety helps you rise to the challenge",
+      },
+      {
+        timestamp: 1637583901000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.472276529516995,
+        color: "#FFE0EC",
+        quote: "Rethinking stress empowers",
+      },
+      {
+        timestamp: 1637583901000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.472276529516995,
+        color: "#FFE0EC",
+        quote: "changes",
+      },
+      {
+        timestamp: 1637583901000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.472276529516995,
+        color: "#FFE0EC",
+        quote:
+          "beliefs about what they are capable of and what they can accomplish.”",
+      },
+      {
+        timestamp: 1637583683000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.468699069767442,
+        color: "#FFE0EC",
+        quote:
+          "When people can’t control what is stressful about their lives, how does it help to tell them that the reality of their lives is unacceptable?",
+      },
+      {
+        timestamp: 1637321693000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.454388050089445,
+        color: "#FFE0EC",
+        quote:
+          "The mindset intervention did not calm them down; it changed the meaning, and then the consequences, of their anxiety",
+      },
+      {
+        timestamp: 1637147496000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.438287119856887,
+        color: "#FFE0EC",
+        quote: "“I’ve got this.”",
+      },
+      {
+        timestamp: 1637146059000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.436498389982111,
+        color: "#FFE0EC",
+        quote:
+          ". However stressful the stress test had been, they weren’t letting it interfere with the next challenge.",
+      },
+      {
+        timestamp: 1637145658000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.42934228980322,
+        color: "#FFE0EC",
+        quote:
+          "when you feel your heart pounding, it’s because your heart is working harder to deliver more oxygen to your body and brain",
+      },
+      {
+        timestamp: 1637145617000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.42934228980322,
+        color: "#FFE0EC",
+        quote:
+          " the body’s stress response mobilizes energy to meet the demands of a situation",
+      },
+      {
+        timestamp: 1637062521000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.41682,
+        color: "#FFE0EC",
+        quote:
+          "the most important factor in determining your response to pressure is how you think about your ability to handle it",
+      },
+      {
+        timestamp: 1636979472000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.411453810375671,
+        color: "#FFE0EC",
+        quote:
+          "during a challenge response, you may feel a little anxious, but you also feel excited, energized, enthusiastic, and confident",
+      },
+      {
+        timestamp: 1636805616000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.400720250447227,
+        color: "#FFE0EC",
+        quote:
+          "Avoiding what makes them anxious only reinforces their fears and increases their worrying about future anxiety.",
+      },
+      {
+        timestamp: 1636709649000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.397142790697674,
+        color: "#FFE0EC",
+        quote:
+          "“You’re the kind of person whose performance improves under pressure",
+      },
+      {
+        timestamp: 1636709538000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.395354060822898,
+        color: "#FFE0EC",
+        quote: "counterintuitive stress mindset intervention",
+      },
+      {
+        timestamp: 1636709025000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.389986690518784,
+        color: "#FFE0EC",
+        quote:
+          "tell yourself you’re excited, and know that your heart is in it.",
+      },
+      {
+        timestamp: 1636708798000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.389986690518784,
+        color: "#FFE0EC",
+        quote: "excite-and-delight response",
+      },
+      {
+        timestamp: 1636708456000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.386409230769231,
+        color: "#FFE0EC",
+        quote:
+          "if people could learn to accept stress and anxiety as part of a challenging work life, that anxiety could actually become a resource rather than a drain on their energy.",
+      },
+      {
+        timestamp: 1636628453000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.382831771019678,
+        color: "#FFE0EC",
+        quote:
+          ". Every time these students perform well despite—or perhaps because of—their nerves, they learn to trust themselves under pressure",
+      },
+      {
+        timestamp: 1636628297000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.381041860465116,
+        color: "#FFE0EC",
+        quote:
+          "Although not necessarily less anxious during the exam, they were less worried about their anxiety",
+      },
+      {
+        timestamp: 1636457332000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.372098211091234,
+        color: "#FFE0EC",
+        quote:
+          "Even in situations where it seems obvious that calming down would help, being amped up can improve performance under pressure.",
+      },
+      {
+        timestamp: 1636373777000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.359575438282648,
+        color: "#FFE0EC",
+        quote:
+          "—people come together in difficult times to support one another.",
+      },
+      {
+        timestamp: 1636373669000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.357786493738819,
+        color: "#FFE0EC",
+        quote:
+          "Families and communities came together to heal and move forward.",
+      },
+      {
+        timestamp: 1636373526000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.355997674418605,
+        color: "#FFE0EC",
+        quote: "“hardiness,”",
+      },
+      {
+        timestamp: 1636373526000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.355997674418605,
+        color: "#FFE0EC",
+        quote: "the courage to grow from stress.",
+      },
+      {
+        timestamp: 1636279129000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.336398277841561,
+        color: "#FFE0EC",
+        quote:
+          "The more directly one aims to maximize pleasure and avoid pain, the more likely one is to produce instead a life bereft of depth, meaning, and community.”",
+      },
+      {
+        timestamp: 1636108996000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.327375134168157,
+        color: "#FFE0EC",
+        quote:
+          "Consider when and where there might be an opportunity to openly discuss the challenges you face, especially in the roles and relationships that are personally meaningful",
+      },
+      {
+        timestamp: 1636108692000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.325586153846154,
+        color: "#FFE0EC",
+        quote:
+          "any single academic failure does not limit their future or define their abilities",
+      },
+      {
+        timestamp: 1636047592000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.30233023255814,
+        color: "#FFE0EC",
+        quote: "Remember the values",
+      },
+      {
+        timestamp: 1636022875000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.313064114490161,
+        color: "#FFE0EC",
+        quote:
+          "Mindfulness exercises are a way to practice staying open to what you sense and feel, rather than shutting down.",
+      },
+      {
+        timestamp: 1635851711000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.295174311270125,
+        color: "#FFE0EC",
+        quote:
+          "when you reflect on your values, the story you tell yourself about stress shifts. You see yourself as strong and able to grow from adversity. You become more likely to approach challenges than to avoid them. And you are better able to see the meaning in difficult circumstances.",
+      },
+      {
+        timestamp: 1635851263000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.289808193202147,
+        color: "#FFE0EC",
+        quote:
+          "The same experiences that give rise to daily stress can also be sources of uplift or meaning—but we must choose to view them that way.",
+      },
+      {
+        timestamp: 1635851002000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.28623023255814,
+        color: "#FFE0EC",
+        quote:
+          "Feeling burdened rather than uplifted by everyday duties is more a mindset than a measure of what is going on in your life.",
+      },
+      {
+        timestamp: 1635689730000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.279074311270125,
+        color: "#FFE0EC",
+        quote:
+          "People are happier when they are busier, even when forced to take on more than they would choose",
+      },
+      {
+        timestamp: 1635689288000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.273708193202147,
+        color: "#FFE0EC",
+        quote:
+          "higher levels of stress seem to go along with things we want: love, health, and satisfaction with our lives.",
+      },
+      {
+        timestamp: 1635503495000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.26655198568873,
+        color: "#FFE0EC",
+        quote:
+          ". It is something to be appreciated, harnessed, and even trusted.",
+      },
+      {
+        timestamp: 1635417681000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.250451806797853,
+        color: "#FFE0EC",
+        quote:
+          "Ideally, your responses will be flexible and fine-tuned, and your body will respond to each stressful situation in a way that best uses your resources.",
+      },
+      {
+        timestamp: 1635329635000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.262974740608229,
+        color: "#FFE0EC",
+        quote:
+          "Even if it feels like your stress response is pushing you in one direction, focusing on how you want to respond can shift your biology to support you",
+      },
+      {
+        timestamp: 1635245472000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.25760801431127,
+        color: "#FFE0EC",
+        quote:
+          "Every moment of stress is an opportunity to transform your stress instincts.",
+      },
+      {
+        timestamp: 1635245399000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.255818533094812,
+        color: "#FFE0EC",
+        quote: "Your brain and body",
+      },
+      {
+        timestamp: 1635245265000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.255818533094812,
+        color: "#FFE0EC",
+        quote:
+          "Even changes induced by traumatic events can be reversed through new life experiences and relationships.",
+      },
+      {
+        timestamp: 1635245107000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.254029910554562,
+        color: "#FFE0EC",
+        quote:
+          "The stress response system is adaptive, constantly trying to figure out how to best handle whatever challenges you face",
+      },
+      {
+        timestamp: 1635159714000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.241507835420394,
+        color: "#FFE0EC",
+        quote:
+          "Stress leaves an imprint on your brain that prepares you to deal with similar stress the next time you encounter it",
+      },
+      {
+        timestamp: 1635159597000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.241507835420394,
+        color: "#FFE0EC",
+        quote: "stress inoculation",
+      },
+      {
+        timestamp: 1635159155000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.243296457960644,
+        color: "#FFE0EC",
+        quote:
+          "Once you appreciate that going through stress makes you better at it, you may find it easier to face each new challenge",
+      },
+      {
+        timestamp: 1635159155000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.243296457960644,
+        color: "#FFE0EC",
+        quote:
+          "viewing a stressful situation as an opportunity to improve your skills, knowledge, or strengths makes it more likely that you will have a challenge response instead of a fight-or-flight response",
+      },
+      {
+        timestamp: 1635157908000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.232563005366726,
+        color: "#FFE0EC",
+        quote:
+          "Oxytocin dampens the fear response in your brain, suppressing the instinct to freeze or flee. This hormone doesn’t just make you want a hug; it also makes you brave.",
+      },
+      {
+        timestamp: 1635124253000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.223618175313059,
+        color: "#FFE0EC",
+        quote: "Stress Gives You Energy to Help You Rise to the Challenge",
+      },
+      {
+        timestamp: 1635124253000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.223618175313059,
+        color: "#FFE0EC",
+        quote:
+          "a challenge response increases self-confidence, motivates action, and helps you learn from experience; while a tend-and-befriend response increases courage, motivates caregiving, and strengthens your social relationships",
+      },
+      {
+        timestamp: 1634983134000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.21646282647585,
+        color: "#FFE0EC",
+        quote:
+          "As with humans themselves, the stress response has evolved, adapting over time to better fit the world we live in now",
+      },
+      {
+        timestamp: 1634896675000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.212884722719141,
+        color: "#FFE0EC",
+        quote:
+          "However, as many scientists have pointed out, fistfights and quick escapes are not ideal coping strategies for the situations humans deal with every day",
+      },
+      {
+        timestamp: 1634810093000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.211096100178891,
+        color: "#FFE0EC",
+        quote:
+          "the most common effects of stress include strength, growth, and resilience.",
+      },
+      {
+        timestamp: 1634809579000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.205729373881932,
+        color: "#FFE0EC",
+        quote:
+          "The message that all stress during pregnancy is harmful may even lead to unintended consequences",
+      },
+      {
+        timestamp: 1634640882000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.194995921288014,
+        color: "#FFE0EC",
+        quote: "Stress,",
+      },
+      {
+        timestamp: 1634640882000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.194995921288014,
+        color: "#FFE0EC",
+        quote: "was the response of the body to any demand made on it",
+      },
+      {
+        timestamp: 1634640199000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.187840572450805,
+        color: "#FFE0EC",
+        quote:
+          "While the stress response can be harmful in some circumstances, there is also much to appreciate. Rather than fearing it, you can learn to harness it to support resilience.",
+      },
+      {
+        timestamp: 1634609246000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.184262468694097,
+        color: "#FFE0EC",
+        quote:
+          "the stress response is your best ally during difficult moments—a resource to rely on rather than an enemy to vanquish.",
+      },
+      {
+        timestamp: 1634563690000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.180684525939177,
+        color: "#FFE0EC",
+        quote:
+          "The mindset shift that matters is the one that allows you to hold a more balanced view of stress—to fear it less, to trust yourself to handle it, and to use it as a resource for engaging with life",
+      },
+      {
+        timestamp: 1634563612000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.178895992844365,
+        color: "#FFE0EC",
+        quote:
+          "making a deliberate shift in mindset when you’re feeling stressed is even more empowering than having an automatically positive view.",
+      },
+      {
+        timestamp: 1634563436000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.177106368515206,
+        color: "#FFE0EC",
+        quote:
+          "Practicing mindset mindfulness doesn’t require anything other than curiosity. You’re just starting to get to know how beliefs about stress—your own and those of the people around you—influence how you feel and how you cope",
+      },
+      {
+        timestamp: 1634522302000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.175317835420394,
+        color: "#FFE0EC",
+        quote:
+          "Whatever you observe yourself doing, try to notice its effects. How does it affect your own well-being or influence your relationships with others?",
+      },
+      {
+        timestamp: 1634474020000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.16995114490161,
+        color: "#FFE0EC",
+        quote:
+          "The new mindset didn’t change the situations themselves, but it did change the students’ relationships to them. In my experience, when people are willing to contemplate a new way of thinking about stress, the benefits can extend to just about any scenario you can imagine.",
+      },
+      {
+        timestamp: 1634473602000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.770382502870264,
+        color: "#FFE0EC",
+        quote:
+          "husband, and their teenage son decide how they want to grow in the coming year. Then they choose a personal project that will be both meaningful and difficult. They talk about what their stress edge will be—what they expect to be challenging, what they might feel anxious about, and the strengths that they want to develop.",
+      },
+      {
+        timestamp: 1634473590000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.769234374282434,
+        color: "#FFE0EC",
+        quote:
+          "A while back, one of my close friends shared with me that instead of New Year’s resolutions, her family had started to set annual stress goals. Each year, she, her",
+      },
+      {
+        timestamp: 1634473363000,
+        chapter: "CHAPTER 7 | final reflections",
+        percent: 0.762345763490241,
+        color: "#FFB",
+        quote:
+          "stress is most likely to be harmful when three things are true: \n\n \n\nYou feel inadequate to it; \n\nIt isolates you from others; and \n\nIt feels utterly meaningless and against your will.",
+      },
+      {
+        timestamp: 1634397685000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.733457012522361,
+        color: "#FFE0EC",
+        quote:
+          "Watching TV news after a natural disaster or terrorist attack has consistently been shown to increase the risk of developing depression or post-traumatic stress disorder. One shocking study found that people who watched six or more hours of news about the 2013 Boston Marathon bombing were more likely to develop post-traumatic stress symptoms than people who were actually at the bombing and personally affected by it.",
+      },
+      {
+        timestamp: 1634397602000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.733643318025258,
+        color: "#FFE0EC",
+        quote:
+          "“We are all broken people, in some way. For most of us, the big question is, how do you live a good life despite, or within, that brokenness? All of us are trying to figure out how to live with things that hurt.”",
+      },
+      {
+        timestamp: 1634397159000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.719866268656716,
+        color: "#FFE0EC",
+        quote:
+          "Even therapists trained in benefit-finding are encouraged to simply listen for any benefits a client mentions and not to try to convince a client to see the upside of their suffering.",
+      },
+      {
+        timestamp: 1634390186000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.153851073345259,
+        color: "#FFE0EC",
+        quote:
+          "Changing our minds can be a catalyst for all the other changes we want to make in our lives",
+      },
+      {
+        timestamp: 1634389833000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.148484382826476,
+        color: "#FFE0EC",
+        quote: "growth mindset",
+      },
+      {
+        timestamp: 1634389833000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.148484382826476,
+        color: "#FFE0EC",
+        quote: "—the belief that people can change in significant ways",
+      },
+      {
+        timestamp: 1634292494000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.7106807347876,
+        color: "#FFE0EC",
+        quote:
+          "Looking for the good in stress helps most when you are also able to realistically acknowledge whatever suffering is also present",
+      },
+      {
+        timestamp: 1634207133000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.13596137745975,
+        color: "#FFE0EC",
+        quote:
+          "The whole approach is: Here’s an idea you might not have considered. How do you think it applies to you?",
+      },
+      {
+        timestamp: 1634206959000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.132384311270125,
+        color: "#FFE0EC",
+        quote:
+          "Adopting a more positive view of stress reduces what we usually think of as stress-related problems and helps people thrive under high levels of stress.",
+      },
+      {
+        timestamp: 1634124988000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.12343946332737,
+        color: "#FFE0EC",
+        quote:
+          "Accept the fact that the stressful event has occurred and is real. \n\nPlan a strategy for dealing with the source of stress. \n\nSeek information, help, or advice. \n\nTake steps to overcome, remove, or change the source of stress. \n\nTry to make the best of the situation by viewing it in a more positive way or by using it as an opportunity to grow.",
+      },
+      {
+        timestamp: 1634124832000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.119861305903399,
+        color: "#FFE0EC",
+        quote: "mindfulness and the ability to tolerate uncertainty.",
+      },
+      {
+        timestamp: 1634124628000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.118072772808587,
+        color: "#FFE0EC",
+        quote:
+          ". It is not the case that people with a positive attitude toward stress have a life free of suffering.",
+      },
+      {
+        timestamp: 1634124448000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.116284239713775,
+        color: "#FFE0EC",
+        quote:
+          "Importantly, a negative view of stress is associated with very different outcomes than a positive perspective.",
+      },
+      {
+        timestamp: 1634124448000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.116284239713775,
+        color: "#FFE0EC",
+        quote:
+          "They are more likely to view stressful situations as a challenge, not an overwhelming problem",
+      },
+      {
+        timestamp: 1634120184000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.678533869115959,
+        color: "#FFE0EC",
+        quote:
+          "People who cope with adversity by shifting and persisting seem immune to the toxicity of a difficult or disadvantaged childhood",
+      },
+      {
+        timestamp: 1634090112000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.668200769230769,
+        color: "#FFE0EC",
+        quote: "hitting an obstacle means it is time to draw on your resources",
+      },
+      {
+        timestamp: 1634089978000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.112706082289803,
+        color: "#FFE0EC",
+        quote:
+          "Experiencing stress facilitates my learning and growth. \n\nThe effects of stress are positive and should be utilized.",
+      },
+      {
+        timestamp: 1634089973000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.110917549194991,
+        color: "#FFE0EC",
+        quote:
+          "Mindset 2: Stress Is Enhancing. \n\nExperiencing stress enhances my performance and productivity. \n\nExperiencing stress improves my health and vitality",
+      },
+      {
+        timestamp: 1634043619000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.109127924865832,
+        color: "#FFE0EC",
+        quote:
+          "how you think about aging affects health and longevity not through some mystical power of positive thinking but by influencing your goals and choices",
+      },
+      {
+        timestamp: 1634043581000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.642222719141324,
+        color: "#FFE0EC",
+        quote:
+          "experienced a moderate level of adversity had the lowest risk of depression, the fewest physical health problems, and the greatest satisfaction with life. People at the extremes—either the lowest or highest levels of adversity—were more depressed, had more health problems, and were less satisfied with their lives",
+      },
+      {
+        timestamp: 1634043576000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.640646670493685,
+        color: "#FFE0EC",
+        quote: "People who had",
+      },
+      {
+        timestamp: 1634043303000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.105550858676208,
+        color: "#FFE0EC",
+        quote:
+          "When you have a positive view of growing older, you’re more apt to do things that will benefit your future self.",
+      },
+      {
+        timestamp: 1634043279000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.633757520091848,
+        color: "#FFE0EC",
+        quote: "the time that led to personal growth was also quite stressful",
+      },
+      {
+        timestamp: 1634043279000,
+        chapter: "CHAPTER 6 | grow | how adversity makes you stronger",
+        percent: 0.633757520091848,
+        color: "#FFE0EC",
+        quote: "we grow through adversity",
+      },
+      {
+        timestamp: 1634043099000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.103761234347048,
+        color: "#FFE0EC",
+        quote:
+          "Studies consistently show that people get happier as they get older, even though younger adults find this difficult to believe.)",
+      },
+      {
+        timestamp: 1634042998000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.103761234347048,
+        color: "#FFE0EC",
+        quote: "“wise”",
+      },
+      {
+        timestamp: 1633865394000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.591278530424799,
+        color: "#FFE0EC",
+        quote:
+          "I’ve found that to feel less alone in your stress, two things help: The first is to increase your awareness of other people’s suffering. The second is to be more open about yours.",
+      },
+      {
+        timestamp: 1633865349000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.590129781859931,
+        color: "#FFE0EC",
+        quote:
+          "Studies show that spending time on social media, including Facebook, can increase loneliness and decrease satisfaction with life.",
+      },
+      {
+        timestamp: 1633710721000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.100184168157424,
+        color: "#FFE0EC",
+        quote:
+          "beliefs that reflect your philosophy of life. A mindset is usually based on a theory about how the world works",
+      },
+      {
+        timestamp: 1633710721000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.101972701252236,
+        color: "#FFE0EC",
+        quote:
+          "having a positive view of aging adds an average of almost eight years to one’s life",
+      },
+      {
+        timestamp: 1633710551000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.100184168157424,
+        color: "#FFE0EC",
+        quote:
+          "The beliefs that become mindsets transcend preferences, learned facts, or intellectual opinions",
+      },
+      {
+        timestamp: 1633688343000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.559131756601608,
+        color: "#FFE0EC",
+        quote:
+          "Despite the widespread assumption that stress increases the risk of illness and death, this does not appear to be true for people who take a tend-and-befriend approach to life.",
+      },
+      {
+        timestamp: 1633688274000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.556834259471871,
+        color: "#FFE0EC",
+        quote: "increased the risk of developing a new health problem",
+      },
+      {
+        timestamp: 1633688262000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.555687026406429,
+        color: "#FFE0EC",
+        quote:
+          "Among people who did not serve their communities in some way, every stressful life event, like a divorce or job loss",
+      },
+      {
+        timestamp: 1633688195000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.554538277841562,
+        color: "#FFE0EC",
+        quote:
+          "helping others seems to eliminate the impact of traumatic events on health and longevity",
+      },
+      {
+        timestamp: 1633687735000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.545354351320322,
+        color: "#FFE0EC",
+        quote:
+          "The instinct to help others when you, yourself, are struggling has been dubbed “altruism born of suffering",
+      },
+      {
+        timestamp: 1633608604000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.0822944722719142,
+        color: "#FFE0EC",
+        quote: "the effect you expect is the effect you get.",
+      },
+      {
+        timestamp: 1633601394000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.516650792192882,
+        color: "#FFE0EC",
+        quote:
+          "when people are connected to bigger-than-self goals, they feel better: more hopeful, curious, caring, grateful, inspired, and excited. In contrast, when people are operating from self-focused goals, they are more likely to feel confused, anxious, angry, envious, and lonely.",
+      },
+      {
+        timestamp: 1633522192000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.0822944722719142,
+        color: "#FFE0EC",
+        quote: "when two outcomes are possible",
+      },
+      {
+        timestamp: 1633522192000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.0822944722719142,
+        color: "#FFE0EC",
+        quote: "a person’s expectations influence which outcome is more likely",
+      },
+      {
+        timestamp: 1633515116000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.499430172215844,
+        color: "#FFE0EC",
+        quote:
+          "If, instead, we focus on relieving our own distress, we stay stuck in fear",
+      },
+      {
+        timestamp: 1633514031000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.497132675086108,
+        color: "#FFE0EC",
+        quote: "compassion collapse",
+      },
+      {
+        timestamp: 1633514031000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.497132675086108,
+        color: "#FFE0EC",
+        quote:
+          "We may retreat physically or mentally, turning to avoidance coping strategies to ease our own discomfort",
+      },
+      {
+        timestamp: 1633506018000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.48450401836969,
+        color: "#FFE0EC",
+        quote: "spending time together, and providing emotional support.",
+      },
+      {
+        timestamp: 1633506006000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.483356785304248,
+        color: "#FFE0EC",
+        quote:
+          "Under stress, women show an increase in tending—caring for others, be it their children, family, spouse, or other communities—and befriending, an increase in behaviors that strengthen social ties, such as listening,",
+      },
+      {
+        timestamp: 1633505965000,
+        chapter: "CHAPTER 5 | connect | how caring creates resilience",
+        percent: 0.483356785304248,
+        color: "#FFE0EC",
+        quote: "stress can increase caring, cooperation, and compassion.",
+      },
+      {
+        timestamp: 1633505741000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.477615063145809,
+        color: "#FFE0EC",
+        quote:
+          "Viewing your stress response as a resource works because it helps you believe “I can do this.”",
+      },
+      {
+        timestamp: 1633343446000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.456949988518944,
+        color: "#FFE0EC",
+        quote:
+          "Because people with anxiety have the most negative perception of stress, they are the most likely to be helped by a mindset intervention that teaches them to rethink the stress response",
+      },
+      {
+        timestamp: 1633343377000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.454653869115959,
+        color: "#FFE0EC",
+        quote:
+          "anxiety self-report higher physical reactivity than those without anxiety. They think their hearts are pounding precariously fast and their adrenaline is surging to dangerous levels. But objectively, their cardiovascular and autonomic responses look just like those of the non-anxious. Everyone experiences an increase in heart rate and adrenaline. People with anxiety disorders perceive those changes differently. They may be more aware of the sensations of their heart beating or the changes in their breathing. And they make more negative assumptions about those sensations, fearing a panic attack. But their physical response is not fundamentally different",
+      },
+      {
+        timestamp: 1633343364000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.453505212399541,
+        color: "#FFE0EC",
+        quote: "people with",
+      },
+      {
+        timestamp: 1633342998000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.448912973593571,
+        color: "#FFE0EC",
+        quote:
+          "Eventually, the anxiety about social performance becomes anxiety about anxiety",
+      },
+      {
+        timestamp: 1633342596000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.438579839265212,
+        color: "#FFE0EC",
+        quote:
+          "Whatever the sensations of stress are, worry less about trying to make them go away, and focus more on what you are going to do with the energy, strength, and drive that stress gives you",
+      },
+      {
+        timestamp: 1633264962000,
+        chapter: "Introduction",
+        percent: 0.0697720214669052,
+        color: "#FFE0EC",
+        quote:
+          "help you discover your own strength, courage, and compassion. Seeing the upside of stress is not about deciding whether stress is either all good or all bad. It’s about how choosing to see the good in stress can help you meet the challenges in your life.",
+      },
+      {
+        timestamp: 1633264545000,
+        chapter: "Introduction",
+        percent: 0.0644052951699463,
+        color: "#FFE0EC",
+        quote:
+          "Stress and meaning are inextricably linked. You don’t stress out about things you don’t care about, and you can’t create a meaningful life without experiencing some stress.",
+      },
+      {
+        timestamp: 1633264411000,
+        chapter: "Introduction",
+        percent: 0.0626166726296959,
+        color: "#FFE0EC",
+        quote:
+          "Stress is what arises when something you care about is at stake",
+      },
+      {
+        timestamp: 1633197559000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.415617451205511,
+        color: "#FFE0EC",
+        quote:
+          "thinking about how you have prepared for a particular challenge; remembering times in the past when you overcame similar challenges; imagining the support of your loved ones; and praying, or knowing that others are praying for you.",
+      },
+      {
+        timestamp: 1633197523000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.414469988518944,
+        color: "#FFE0EC",
+        quote: "effective strategies",
+      },
+      {
+        timestamp: 1633197523000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.414469988518944,
+        color: "#FFE0EC",
+        quote: "acknowledging your personal strengths",
+      },
+      {
+        timestamp: 1633197481000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.414469988518944,
+        color: "#FFE0EC",
+        quote:
+          "If you believe that the demands of the situation exceed your resources, you will have a threat response. But if you believe you have the resources to succeed, you will have a challenge response.",
+      },
+      {
+        timestamp: 1633190614000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.406432973593571,
+        color: "#FFE0EC",
+        quote: "can accelerate aging and disease when chronic.",
+      },
+      {
+        timestamp: 1633190614000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.406432973593571,
+        color: "#FFE0EC",
+        quote: "The increased inflammation and blood pressure",
+      },
+      {
+        timestamp: 1633190614000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.406432973593571,
+        color: "#FFE0EC",
+        quote:
+          "The kind of stress response associated with an increased risk of cardiovascular disease is a threat response",
+      },
+      {
+        timestamp: 1633190594000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.405284316877153,
+        color: "#FFE0EC",
+        quote:
+          "challenge response gives you even more energy than a threat response",
+      },
+      {
+        timestamp: 1633190594000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.405284316877153,
+        color: "#FFE0EC",
+        quote:
+          "your blood vessels stay relaxed. Your heart also has a stronger beat—not just faster, but with greater force.",
+      },
+      {
+        timestamp: 1633190594000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.405284316877153,
+        color: "#FFE0EC",
+        quote: "challenge response",
+      },
+      {
+        timestamp: 1633189759000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.402988197474168,
+        color: "#FFE0EC",
+        quote:
+          "challenge response. It gives us the motivation to approach the challenge head-on, and the mental and physical resources to succeed.",
+      },
+      {
+        timestamp: 1633189759000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.402988197474168,
+        color: "#FFE0EC",
+        quote: "fight-or-flight response",
+      },
+      {
+        timestamp: 1633189759000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.402988197474168,
+        color: "#FFE0EC",
+        quote: "primes you more for self-defense than for success",
+      },
+      {
+        timestamp: 1633172687000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.394952376578645,
+        color: "#FFE0EC",
+        quote:
+          "Instead of signaling “you’re about to blow it,” the nerves are proof that you’re getting ready to excel.",
+      },
+      {
+        timestamp: 1633172304000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.384619242250287,
+        color: "#FFE0EC",
+        quote:
+          "Choosing to view anxiety as excitement, energy, or motivation can help you perform to your full potential",
+      },
+      {
+        timestamp: 1633172270000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.383470585533869,
+        color: "#FFE0EC",
+        quote: "burn out in a demanding job",
+      },
+      {
+        timestamp: 1633172265000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.382323122847302,
+        color: "#FFE0EC",
+        quote: "A positive view of anxiety can also make you less likely to",
+      },
+      {
+        timestamp: 1633172165000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.381174466130884,
+        color: "#FFE0EC",
+        quote:
+          "A positive mindset protected the most anxious students from emotional exhaustion and helped them succeed in their goals",
+      },
+      {
+        timestamp: 1633088356000,
+        chapter: "Introduction",
+        percent: 0.057249946332737,
+        color: "#FFE0EC",
+        quote:
+          "By rethinking and even embracing stress, you can change its effect on everything from your physical health and emotional well-being to your satisfaction at work and hopefulness about the future.",
+      },
+      {
+        timestamp: 1633088077000,
+        chapter: "Introduction",
+        percent: 0.0536718425760286,
+        color: "#FFE0EC",
+        quote: "“mindset resets",
+      },
+      {
+        timestamp: 1633088077000,
+        chapter: "Introduction",
+        percent: 0.0536718425760286,
+        color: "#FFE0EC",
+        quote:
+          "shifts in how you think about the stress you are experiencing in the moment",
+      },
+      {
+        timestamp: 1633069283000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.376582227324914,
+        color: "#FFE0EC",
+        quote:
+          "higher exam scores—but only for students who received the mindset intervention",
+      },
+      {
+        timestamp: 1633069274000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.375433570608496,
+        color: "#FFE0EC",
+        quote: "A stronger physical stress response was associated with",
+      },
+      {
+        timestamp: 1633069035000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.370841331802526,
+        color: "#FFE0EC",
+        quote:
+          "When it comes to performing under pressure, being stressed is better than being relaxed.",
+      },
+      {
+        timestamp: 1633068736000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.365101630309988,
+        color: "#FFE0EC",
+        quote:
+          "confident, and competent than the participants who had tried to calm down",
+      },
+      {
+        timestamp: 1633068726000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.363952973593571,
+        color: "#FFE0EC",
+        quote:
+          "People who watched the speeches rated the excited speakers as more persuasive,",
+      },
+      {
+        timestamp: 1633068641000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.363952973593571,
+        color: "#FFE0EC",
+        quote:
+          "participants who had told themselves “I am excited” felt better able to handle the pressure. Despite feeling anxious, they were confident in their ability to give a good talk.",
+      },
+      {
+        timestamp: 1633068641000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.363952973593571,
+        color: "#FFE0EC",
+        quote: "people who were about to give a speech",
+      },
+      {
+        timestamp: 1633068641000,
+        chapter:
+          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
+        percent: 0.363952973593571,
+        color: "#FFE0EC",
+        quote:
+          "were told to embrace the anxiety and say to themselves, “I am excited.”",
+      },
+      {
+        timestamp: 1633068515000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.359360597014925,
+        color: "#FFE0EC",
+        quote:
+          "They maintain a basic sense of trust in themselves and a connection to something bigger than themselves",
+      },
+      {
+        timestamp: 1633068406000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.358212537313433,
+        color: "#FFE0EC",
+        quote:
+          "embracing stress is an act of bravery, one that requires choosing meaning over avoiding discomfort.",
+      },
+      {
+        timestamp: 1633068406000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.358212537313433,
+        color: "#FFE0EC",
+        quote: "courage to grow from stress",
+      },
+      {
+        timestamp: 1633068317000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.35706447761194,
+        color: "#FFE0EC",
+        quote:
+          "grit, learned optimism, post-traumatic growth, shift-and-persist, having a growth mindset",
+      },
+      {
+        timestamp: 1633067910000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.350175843857635,
+        color: "#FFE0EC",
+        quote: "people who thrived under stress",
+      },
+      {
+        timestamp: 1633067910000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.350175843857635,
+        color: "#FFE0EC",
+        quote:
+          "They were more likely to acknowledge their stress and less likely to view every struggle as a catastrophe headed toward a worst-case scenario",
+      },
+      {
+        timestamp: 1633067910000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.354208729874776,
+        color: "#FFE0EC",
+        quote: "they viewed",
+      },
+      {
+        timestamp: 1633067885000,
+        chapter: "PART 2 | Transform Stress",
+        percent: 0.350175843857635,
+        color: "#FFE0EC",
+        quote: "stress as an opportunity to grow",
+      },
+      {
+        timestamp: 1633052005000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.342138920780712,
+        color: "#FFE0EC",
+        quote:
+          "The most meaningful challenges in your life will come with a few dark nights.",
+      },
+      {
+        timestamp: 1633051748000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.334102181400689,
+        color: "#FFE0EC",
+        quote:
+          "Those who reported trying to avoid stress were more likely to become depressed over the following decade",
+      },
+      {
+        timestamp: 1633051748000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.334102181400689,
+        color: "#FFE0EC",
+        quote:
+          "They also experienced increasing conflict at work and at home, and more negative outcomes, such as being fired or getting divorced",
+      },
+      {
+        timestamp: 1633051718000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.332954535017222,
+        color: "#FFE0EC",
+        quote: "Avoiding stress can also be isolating",
+      },
+      {
+        timestamp: 1633051673000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.331806084959816,
+        color: "#FFE0EC",
+        quote:
+          "many of the negative outcomes we associate with stress may actually be the consequence of trying to avoid it",
+      },
+      {
+        timestamp: 1632997052000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.316881056257176,
+        color: "#FFE0EC",
+        quote: "Rather than trying to reduce stress, they embraced it",
+      },
+      {
+        timestamp: 1632997052000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.316881056257176,
+        color: "#FFE0EC",
+        quote:
+          "Opening up to the suffering that is an intrinsic part of their work helped these physicians reconnect meaning to it",
+      },
+      {
+        timestamp: 1632996771000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.308844316877153,
+        color: "#FFE0EC",
+        quote:
+          "These roles can be exhausting, but they are also rich sources of personal meaning. Trying to create a psychological shield to defend against stress can interfere with the ability to find purpose and satisfaction.",
+      },
+      {
+        timestamp: 1632965415000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.303103673938002,
+        color: "#FFE0EC",
+        quote:
+          "Consider creating a physical reminder of your own most important value",
+      },
+      {
+        timestamp: 1632965395000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.30425132032147,
+        color: "#FFE0EC",
+        quote: "Post-it attached to your computer monitor",
+      },
+      {
+        timestamp: 1632965342000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.303103673938002,
+        color: "#FFE0EC",
+        quote:
+          "When you can’t control or get rid of stress, you can still choose how you respond it.",
+      },
+      {
+        timestamp: 1632965127000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.297363030998852,
+        color: "#FFE0EC",
+        quote:
+          "Once you’ve chosen three values as personally meaningful, pick one and write about it for ten minutes.",
+      },
+      {
+        timestamp: 1632964828000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.292770838117107,
+        color: "#FFE0EC",
+        quote:
+          "When people are connected to their values, they are more likely to believe that they can improve their situation through effort and the support of others",
+      },
+      {
+        timestamp: 1632964787000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.291622388059701,
+        color: "#FFE0EC",
+        quote: "psychological interventions ever studied",
+      },
+      {
+        timestamp: 1632964782000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.290473938002296,
+        color: "#FFE0EC",
+        quote: "writing about your values is one of the most effective",
+      },
+      {
+        timestamp: 1632964741000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.290473938002296,
+        color: "#FFE0EC",
+        quote:
+          "To the students asked to see their deepest values in daily activities, small things that might otherwise have seemed irritating became moments of meaning.",
+      },
+      {
+        timestamp: 1632878916000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.278993455797933,
+        color: "#FFE0EC",
+        quote:
+          "When the most commonly reported sources of stress in people’s lives overlap with the greatest sources of meaning, it’s clear that stress may even contribute to well-being.",
+      },
+      {
+        timestamp: 1632878806000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.275548909299656,
+        color: "#FFE0EC",
+        quote: "people with less meaningful lives.”",
+      },
+      {
+        timestamp: 1632878793000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.27440045924225,
+        color: "#FFE0EC",
+        quote:
+          "“People with very meaningful lives worry more and have more stress than",
+      },
+      {
+        timestamp: 1632878693000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.272104362801378,
+        color: "#FFE0EC",
+        quote: "associated with both distress and well-being",
+      },
+      {
+        timestamp: 1632878686000,
+        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
+        percent: 0.27095671641791,
+        color: "#FFE0EC",
+        quote: "stress paradox. High levels of stress are",
+      },
+      {
+        timestamp: 1632832997000,
+        chapter: "Introduction",
+        percent: 0.050094168157424,
+        color: "#FFE0EC",
+        quote:
+          "Skipping the science and getting straight to the advice doesn’t work. Knowing what’s behind every strategy helps them stick",
+      },
+      {
+        timestamp: 1632826395000,
+        chapter: "Introduction",
+        percent: 0.0465164937388193,
+        color: "#FFE0EC",
+        quote:
+          ". The latest science reveals that stress can make you smarter, stronger, and more successful. It helps you learn and grow. It can even inspire courage and compassion.",
+      },
+      {
+        timestamp: 1632824426000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.264068289322618,
+        color: "#FFE0EC",
+        quote: "we get stressed when something important to us is at stake",
+      },
+      {
+        timestamp: 1632824426000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.264068289322618,
+        color: "#FFE0EC",
+        quote: "we have stress responses to help us do something about it.",
+      },
+      {
+        timestamp: 1632823830000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.252586819747417,
+        color: "#FFE0EC",
+        quote:
+          "stressful times. As adults, they are primed to cope through the self-defense of a fight-or-flight response or the self-reliance of a challenge response",
+      },
+      {
+        timestamp: 1632823777000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.251439012629162,
+        color: "#FFE0EC",
+        quote:
+          "adults who experienced abuse during childhood show a smaller oxytocin response to stress. They are more likely to have learned not to trust others in",
+      },
+      {
+        timestamp: 1632816305000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.241105350172216,
+        color: "#FFE0EC",
+        quote:
+          "the emotions that follow stress help you learn from experience and create meaning.",
+      },
+      {
+        timestamp: 1632816186000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.238809735935706,
+        color: "#FFE0EC",
+        quote:
+          ". People who release higher levels of these hormones during a stressful experience tend to bounce back faster, with less lingering distress.",
+      },
+      {
+        timestamp: 1632816173000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.238809735935706,
+        color: "#FFE0EC",
+        quote:
+          "stress response because they help you recover physically and mentally",
+      },
+      {
+        timestamp: 1632816163000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.237661079219288,
+        color: "#FFE0EC",
+        quote:
+          "Though you may have thought of stress hormones as something you need to recover from, in this case, it’s the reverse. These hormones are built into the",
+      },
+      {
+        timestamp: 1632738155000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.234216808266361,
+        color: "#FFE0EC",
+        quote: "tend-and-befriend response",
+      },
+      {
+        timestamp: 1632738155000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.234216808266361,
+        color: "#FFE0EC",
+        quote:
+          "motivates you to protect the people and communities you care about. And, importantly, it gives you the courage to do so.",
+      },
+      {
+        timestamp: 1632738009000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.229624730195178,
+        color: "#FFE0EC",
+        quote:
+          "People who report being in a flow state—a highly enjoyable state of being completely absorbed in what you are doing—display clear signs of a challenge response",
+      },
+      {
+        timestamp: 1632737944000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.228476923076923,
+        color: "#FFE0EC",
+        quote: "You feel focused but not fearful",
+      },
+      {
+        timestamp: 1632737883000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.228476923076923,
+        color: "#FFE0EC",
+        quote:
+          "But when the stressful situation is less threatening, the brain and body shift into a different state: the challenge response. Like a fight-or-flight response, a challenge response gives you energy and helps you perform under pressure",
+      },
+      {
+        timestamp: 1632737568000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.221588381171068,
+        color: "#FFE0EC",
+        quote:
+          "the stronger their hearts’ response to stress, the more altruistic they became",
+      },
+      {
+        timestamp: 1632737508000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.22043972445465,
+        color: "#FFE0EC",
+        quote: "Stress made the men prosocial",
+      },
+      {
+        timestamp: 1632655373000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.208959104477612,
+        color: "#FFE0EC",
+        quote:
+          "The stress those animals were exposed to is the worst possible kind: unpredictable, uncontrollable, and completely devoid of meaning",
+      },
+      {
+        timestamp: 1632655314000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.207810447761194,
+        color: "#FFE0EC",
+        quote: "greater self-control",
+      },
+      {
+        timestamp: 1632655314000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.207810447761194,
+        color: "#FFE0EC",
+        quote: "greater curiosity and resilience",
+      },
+      {
+        timestamp: 1632655238000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.206662640642939,
+        color: "#FFE0EC",
+        quote:
+          "As they grew up, the monkeys who had experienced early life stress were less anxious than the more sheltered monkeys",
+      },
+      {
+        timestamp: 1632655238000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.206662640642939,
+        color: "#FFE0EC",
+        quote:
+          "To stress out young monkeys, she separates them from their mothers and places them in an isolated cage for one hour a day",
+      },
+      {
+        timestamp: 1632655070000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.204366176808266,
+        color: "#FFE0EC",
+        quote:
+          "researchers at Johns Hopkins University found that women who reported greater stress during pregnancy had babies born with superior brain development and higher heart rate variability, a biological measure of resilience to stress.",
+      },
+      {
+        timestamp: 1632655041000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.204366176808266,
+        color: "#FFE0EC",
+        quote: "of daily stress and hassles did not",
+      },
+      {
+        timestamp: 1632655023000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.203218369690012,
+        color: "#FFE0EC",
+        quote:
+          "A 2011 review of over a hundred studies found that only severe stress, such as surviving a terrorist attack or being homeless during pregnancy, increased the risk of preterm birth and low birth weight. Higher levels",
+      },
+      {
+        timestamp: 1632654901000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.200921905855339,
+        color: "#FFE0EC",
+        quote:
+          "in a major 2014 survey in the United States, the most commonly named source of daily stress among people who claimed to be highly stressed was “juggling schedules of family members.” The runner-up was “hearing about what politicians are doing.”",
+      },
+      {
+        timestamp: 1632654826000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.197477634902411,
+        color: "#FFE0EC",
+        quote:
+          "THE LEGACY of Hans Selye lives on in stress research, which relies heavily on laboratory animals rather than human subjects",
+      },
+      {
+        timestamp: 1632654714000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.196329827784156,
+        color: "#FFE0EC",
+        quote: "health",
+      },
+      {
+        timestamp: 1632654697000,
+        chapter: "CHAPTER 2 | beyond fight-or-flight",
+        percent: 0.195181171067738,
+        color: "#FFE0EC",
+        quote:
+          "There is ample scientific evidence that severe or traumatic stress can harm your",
+      },
+      {
+        timestamp: 1632654502000,
+        chapter: "Introduction",
+        percent: 0.0393607155635063,
+        color: "#FFE0EC",
+        quote:
+          "Another example of a belief with long-reaching impact has to do with trust. Those who believe that most people can be trusted tend to live longer",
+      },
+      {
+        timestamp: 1632654480000,
+        chapter: "Introduction",
+        percent: 0.0375716636851521,
+        color: "#FFE0EC",
+        quote:
+          ", I was already aware that some beliefs can influence longevity. For example, people with a positive attitude about aging live longer than those who hold negative stereotypes about getting older",
+      },
+      {
+        timestamp: 1632654015000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.173367164179104,
+        color: "#FFE0EC",
+        quote:
+          "When other people complain about stress, does it make you anxious? Do you tell them to calm down or not to stress so much? Do you try to avoid people when they are most frazzled?",
+      },
+      {
+        timestamp: 1632623864000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.160738553386912,
+        color: "#FFE0EC",
+        quote:
+          "energy that stress gives you, instead of wasting that energy trying to manage your stress",
+      },
+      {
+        timestamp: 1632623813000,
+        chapter: "CHAPTER 1 | how to change your mind about stress",
+        percent: 0.159589781859931,
+        color: "#FFE0EC",
+        quote:
+          "The first step is to acknowledge stress when you experience it. Simply allow yourself to notice the stress, including how it affects your body. The second step is to welcome the stress by recognizing that it’s a response to something you care about. Can you connect to the positive motivation behind the stress? What is at stake here, and why does it matter to you? The third step is to make use of the",
+      },
+      {
+        timestamp: 1632566521000,
+        chapter: "Introduction",
+        percent: 0.0322049373881932,
+        color: "#FFE0EC",
+        quote:
+          "The researchers concluded that it wasn’t stress alone that was killing people. It was the combination of stress and the belief that stress is harmful",
+      },
+    ],
+  ],
 };
 
 module.exports = { books };

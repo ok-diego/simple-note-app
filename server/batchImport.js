@@ -18,7 +18,7 @@ const batchImport = async (req, res) => {
   try {
     await client.connect;
 
-    const insertArray = [{ _id: "BK01", quotes: books.BK01 }];
+    const insertArray = [{ _id: "BK02", quotes: books.BK02 }];
 
     const db = client.db("simple_note");
 

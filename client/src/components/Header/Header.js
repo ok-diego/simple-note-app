@@ -14,7 +14,7 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   height: 50px;
-  background-color: azure;
+  background-color: #9f8fbf;
   padding: 0 0 0 3%;
   font-weight: 400;
 `;
