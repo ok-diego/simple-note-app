@@ -40,6 +40,44 @@ const getBooks = async (req, res) => {
   console.log("disconnected!");
 };
 
+// GET one book chapters data by id
+const getBookChapters = async (req, res) => {
+  // create a new mongodb client
+  const client = new MongoClient(MONGO_URI, options);
+
+  try {
+    // connect to the client
+    await client.connect();
+
+    // connect to the database
+    const db = client.db("simple_note");
+
+    // set req.params
+    // our book ids are strings(not numbers)
+    // we don't need to add Number before req.params
+    const _id = req.params._id;
+    console.log(_id);
+
+    const findOneResult = await db.collection("books").findOne({ _id });
+    console.log(findOneResult);
+
+    if (findOneResult) {
+      res
+        .status(200)
+        .json({ status: 200, data: findOneResult, message: "success!" });
+    } else {
+      res.status(404).json({ status: 404, message: "something went wrong" });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+
+  // close and disconnect from database
+  client.close;
+  console.log("disconnected!");
+};
+
 module.exports = {
   getBooks,
+  getBookChapters,
 };

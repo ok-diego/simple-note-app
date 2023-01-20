@@ -3,6 +3,7 @@ import React, { useContext, useState, useEffect } from "react";
 import { SimpleContext } from "../SimpleContext";
 import Header from "../Header/Header";
 import Titles from "../Titles/Titles";
+import Chapters from "../Chapters/Chapters";
 
 const Home = () => {
   const { responseData, setResponseData } = useContext(SimpleContext);
@@ -25,6 +26,7 @@ const Home = () => {
     responseData && (
       <Wrapper>
         <Titles />
+        <Chapters />
       </Wrapper>
     )
   );
@@ -33,7 +35,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   height: 100%;
   //margin: 20% 3%;

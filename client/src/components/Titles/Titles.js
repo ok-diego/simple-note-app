@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import { useContext, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { SimpleContext } from "../SimpleContext";
 
 const Titles = () => {
@@ -40,7 +41,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 25vw;
+  width: 28vw;
   height: 100vh;
   background-color: #bdb8d9;
   padding: 2% 0 0 2%;
