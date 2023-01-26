@@ -1,9 +1,12 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <Wrapper>
-      <h3>Simple Note</h3>
+      <Link to="/">
+        <h3>Simple Note</h3>
+      </Link>
     </Wrapper>
   );
 };

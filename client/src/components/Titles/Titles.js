@@ -1,11 +1,12 @@
 import styled from "styled-components";
 import React from "react";
 import { useContext, useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { SimpleContext } from "../SimpleContext";
 
 const Titles = () => {
-  const { responseData } = useContext(SimpleContext);
+  const { responseData, selectedBook, setSelectedBook } =
+    useContext(SimpleContext);
 
   return (
     <Wrapper>
@@ -26,8 +27,12 @@ const Titles = () => {
             })}
             <Ul>
               {journey.map((item) => {
-                //console.log(item.title);
-                return <Li key={item.percent}>{item.title}</Li>;
+                //console.log(book._id);
+                return (
+                  <Li key={item.percent}>
+                    <Link to={`/chapters/${book._id}`}>{item.title}</Link>
+                  </Li>
+                );
               })}
             </Ul>
           </React.Fragment>
@@ -41,7 +46,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 28vw;
+  width: 26vw;
   height: 100vh;
   background-color: #bdb8d9;
   padding: 2% 0 0 2%;
