@@ -46,33 +46,24 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 26vw;
-  height: 100vh;
+  align-self: flex-start;
   background-color: #bdb8d9;
-  padding: 2% 0 0 2%;
+  flex: 0 0 25%;
+  min-width: 25vw;
+  min-height: 100vh;
+  //padding: 3% 5%;
 `;
-// const BookList = styled.div`
-//   display: flex;
-//   justify-content: flex-start;
-//   flex-direction: column;
-//   align-items: flex-start;
-//   width: 25vw;
-//   height: 50vh;
-//   padding: 3% 0 0 0;
-//   font-size: 0.9em;
-//   font-weight: 300;
-//   background-color: aliceblue;
-// `;
 const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
+  padding: 1% 4%;
 `;
 const Li = styled.li`
   padding: 3% 0 0 0;
 `;
 const Title = styled.h4`
-  padding: 5% 0 0 0;
+  padding: 7% 5% 0 4%;
 `;
 
 export default Titles;
