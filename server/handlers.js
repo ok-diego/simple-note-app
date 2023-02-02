@@ -23,12 +23,12 @@ const getBooks = async (req, res) => {
     // connect to the database
     const db = client.db("simple_note");
 
-    const insertOneResult = await db.collection("books").find().toArray();
+    const findOneResult = await db.collection("books").find().toArray();
 
-    if (insertOneResult.length > 0) {
+    if (findOneResult.length > 0) {
       res
         .status(200)
-        .json({ status: 200, data: insertOneResult, message: "success!" });
+        .json({ status: 200, data: findOneResult, message: "success!" });
     } else {
       res.status(404).json({ status: 404, message: "something went wrong" });
     }
@@ -40,8 +40,49 @@ const getBooks = async (req, res) => {
   console.log("disconnected!");
 };
 
-// GET one book chapters data by id
-const getBookChapters = async (req, res) => {
+// GET all books journeys
+const getBooksJourney = async (req, res) => {
+  // create a new mongo client
+  const client = new MongoClient(MONGO_URI, options);
+
+  try {
+    // connect to the client
+    await client.connect;
+
+    // connect to the database
+    const db = client.db("simple_note");
+
+    const findOneResult = await db.collection("books").find().toArray();
+
+    let journeyValues = [];
+
+    findOneResult.map((book) => {
+      return book.quotes[0].forEach((element) => {
+        if (element.readingJourney) {
+          journeyValues.push(element.readingJourney);
+        }
+      });
+    });
+
+    console.log(journeyValues);
+
+    if (journeyValues.length > 0) {
+      res
+        .status(200)
+        .json({ status: 200, data: journeyValues, message: "success!" });
+    } else {
+      res.status(404).json({ status: 404, message: "something went wrong" });
+    }
+  } catch (error) {
+    console.log(error);
+  }
+
+  client.close();
+  console.log("disconnected!");
+};
+
+// GET one book chapters data by book id
+const getBooksChapters = async (req, res) => {
   // create a new mongodb client
   const client = new MongoClient(MONGO_URI, options);
 
@@ -53,18 +94,36 @@ const getBookChapters = async (req, res) => {
     const db = client.db("simple_note");
 
     // set req.params
-    // our book ids are strings(not numbers)
+    // our books ids are strings(not numbers)
     // we don't need to add Number before req.params
     const _id = req.params._id;
     console.log(_id);
 
     const findOneResult = await db.collection("books").findOne({ _id });
-    console.log(findOneResult);
+    //console.log(findOneResult);
 
-    if (findOneResult) {
+    let chaptersValues = [];
+    let newChaptersSet = [];
+
+    findOneResult.quotes?.map((book) => {
+      //let chaptersValues = [];
+      //let newChaptersSet = [];
+
+      return book.forEach((element) => {
+        chaptersValues.push(element.chapter);
+
+        // remove duplicates with ...new Set method
+        newChaptersSet = [...new Set(chaptersValues)];
+      });
+    });
+
+    // sort chapters in alphabetical order
+    newChaptersSet.sort((a, b) => (a === b ? 0 : a > b ? 1 : -1));
+
+    if (newChaptersSet) {
       res
         .status(200)
-        .json({ status: 200, data: findOneResult, message: "success!" });
+        .json({ status: 200, data: newChaptersSet, message: "success!" });
     } else {
       res.status(404).json({ status: 404, message: "something went wrong" });
     }
@@ -79,5 +138,6 @@ const getBookChapters = async (req, res) => {
 
 module.exports = {
   getBooks,
-  getBookChapters,
+  getBooksJourney,
+  getBooksChapters,
 };

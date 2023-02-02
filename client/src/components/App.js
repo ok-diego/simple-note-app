@@ -4,6 +4,7 @@ import GlobalStyles from "./GlobalStyles";
 import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
+import Chapters from "./Chapters";
 import Quotes from "./Quotes";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <Home /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/chapters/:id" element={<Quotes />} />
+        <Route path="/chapters/:id" element={<Chapters />} />
+        <Route path="/quotes/:id/:chapterId" element={<Quotes />} />
       </Routes>
       <Footer />
     </BrowserRouter>

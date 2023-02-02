@@ -7,7 +7,7 @@ const morgan = require("morgan");
 
 const PORT = 8000;
 
-const { getBooks, getBookChapters } = require("./handlers");
+const { getBooks, getBooksJourney, getBooksChapters } = require("./handlers");
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
@@ -21,7 +21,8 @@ express()
 
   // set endpoints
   .get("/api/get-books", getBooks)
-  .get("/api/get-book-chapters/:_id", getBookChapters)
+  .get("/api/get-books-journey", getBooksJourney)
+  .get("/api/get-book-chapters/:_id", getBooksChapters)
 
   // this our catch all endpoint
   .get("*", (req, res) => {

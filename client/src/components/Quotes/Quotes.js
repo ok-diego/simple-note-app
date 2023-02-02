@@ -1,29 +1,15 @@
 import styled from "styled-components";
-import React, { useEffect, useState, useContext } from "react";
-import { useParams } from "react-router-dom";
+import React, { useContext, useEffect } from "react";
+import { useParams, NavLink } from "react-router-dom";
 import { SimpleContext } from "../SimpleContext";
 
 import Home from "../Home";
 
 const Quotes = () => {
-  // const [selectedBook, setSelectedBook] = useState([]);
+  const { responseData, selectedBook } = useContext(SimpleContext);
 
-  const { responseData, selectedBook, setSelectedBook } =
-    useContext(SimpleContext);
-
-  const { id } = useParams();
-
-  useEffect(() => {
-    fetch(`/api/get-book-chapters/${id}`)
-      .then((res) => res.json())
-      .then((response) => {
-        console.log(response);
-        setSelectedBook(response.data);
-      })
-      .catch((error) => {
-        console.log(`Error in feed: ${error}`);
-      });
-  }, []);
+  const { id, chapterId } = useParams();
+  //console.log(chapterId);
 
   return (
     responseData &&
@@ -31,26 +17,32 @@ const Quotes = () => {
       <Wrapper>
         <Home />
         <Main>
-          <Title>Chapters</Title>
-          {/* {console.log(selectedBook)} */}
+          <Title>Quotes</Title>
+          {/* {console.log(responseData)} */}
 
-          {selectedBook.quotes?.map((book) => {
-            console.log(book);
-            return (
-              <React.Fragment key={book.timestamp}>
-                {book.map((element) => {
-                  console.log(element);
-                  return <Li key={element.timestamp}>{element.quote}</Li>;
-                })}
-              </React.Fragment>
-            );
+          {responseData.map((book) => {
+            // {console.log(book._id)}
+
+            if (book._id == id) {
+              return (
+                <React.Fragment key={book._id}>
+                  <Ul>
+                    {book.quotes[1].map((element) => {
+                      // console.log(element);
+                      if (element.chapter == chapterId) {
+                        return <Li key={element.timestamp}>{element.quote}</Li>;
+                      }
+                    })}
+                  </Ul>
+                </React.Fragment>
+              );
+            }
           })}
         </Main>
       </Wrapper>
     )
   );
 };
-
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
@@ -76,7 +68,22 @@ const Ul = styled.ul`
   padding: 0 0 0 0;
 `;
 const Li = styled.li`
-  padding: 2% 0 0 0;
+  flex-direction: column;
+  padding: 1% 0 0 0;
+`;
+const NavLinkMenu = styled(NavLink)`
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+  }
+  &:link {
+  }
+  &:active {
+  }
 `;
 
 export default Quotes;

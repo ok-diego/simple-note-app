@@ -2,7 +2,6 @@ const books = {
   BK01: [
     [
       {
-        timestamp: 1401021121000,
         readingJourney: {
           contentType: "image/jpeg",
           url: "https://img1.od-cdn.com/ImageType-100/0027-1/{C4621572-BCEC-4817-9773-276A7A7B257F}Img100.jpg",
@@ -208,7 +207,7 @@ const books = {
     ],
     [
       {
-        timestamp: 1669865124000,
+        timestamp: 1669865124001,
         chapter: "CHAPTER 7 | final reflections",
         percent: 0.771024525939177,
         color: "#FFE0EC",
@@ -216,7 +215,7 @@ const books = {
           "any moment can become a turning point in how you experience stress, if you choose to make it one.",
       },
       {
-        timestamp: 1669865124000,
+        timestamp: 1669865124002,
         chapter: "CHAPTER 7 | final reflections",
         percent: 0.771024525939177,
         color: "#FFE0EC",
@@ -224,7 +223,7 @@ const books = {
           "Any new beginning or transition is an opportunity to think about how you want to challenge yourself.",
       },
       {
-        timestamp: 1669865124000,
+        timestamp: 1669865124003,
         chapter: "CHAPTER 7 | final reflections",
         percent: 0.771024525939177,
         color: "#FFE0EC",
@@ -349,7 +348,7 @@ const books = {
           "Take a moment to think about what kind of person you want to be in",
       },
       {
-        timestamp: 1661944610000,
+        timestamp: 1661944610001,
         chapter: "CHAPTER 5 | connect | how caring creates resilience",
         percent: 0.515210876565295,
         color: "#FFE0EC",
@@ -357,7 +356,7 @@ const books = {
           "increase your chance of reaching both your professional and bigger-than-self goals",
       },
       {
-        timestamp: 1661944610000,
+        timestamp: 1661944610002,
         chapter: "CHAPTER 5 | connect | how caring creates resilience",
         percent: 0.515210876565295,
         color: "#FFE0EC",
@@ -451,14 +450,14 @@ const books = {
           "“There is always stress, so the only point is to make sure that it is useful to yourself and useful to others.”",
       },
       {
-        timestamp: 1653654432000,
+        timestamp: 1653654432001,
         chapter: "CHAPTER 2 | beyond fight-or-flight",
         percent: 0.184262468694097,
         color: "#FFE0EC",
         quote: "Cortisol and adrenaline are part of",
       },
       {
-        timestamp: 1653654432000,
+        timestamp: 1653654432002,
         chapter: "CHAPTER 2 | beyond fight-or-flight",
         percent: 0.184262468694097,
         color: "#FFE0EC",
@@ -720,7 +719,7 @@ const books = {
           "how you see your role within your community—what you want to contribute, and the change you want to create",
       },
       {
-        timestamp: 1638014773000,
+        timestamp: 1638014773001,
         chapter: "CHAPTER 5 | connect | how caring creates resilience",
         percent: 0.508055098389982,
         color: "#FFE0EC",
@@ -728,7 +727,7 @@ const books = {
           "Your brain might tell you that you don’t have the time or energy, but that is exactly why you should do it",
       },
       {
-        timestamp: 1638014773000,
+        timestamp: 1638014773002,
         chapter: "CHAPTER 5 | connect | how caring creates resilience",
         percent: 0.508055098389982,
         color: "#FFE0EC",
@@ -800,41 +799,6 @@ const books = {
         quote: "Rethinking stress empowers",
       },
       {
-        timestamp: 1637583901000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.472276529516995,
-        color: "#FFE0EC",
-        quote: "changes",
-      },
-      {
-        timestamp: 1637583901000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.472276529516995,
-        color: "#FFE0EC",
-        quote:
-          "beliefs about what they are capable of and what they can accomplish.”",
-      },
-      {
-        timestamp: 1637583683000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.468699069767442,
-        color: "#FFE0EC",
-        quote:
-          "When people can’t control what is stressful about their lives, how does it help to tell them that the reality of their lives is unacceptable?",
-      },
-      {
-        timestamp: 1637321693000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.454388050089445,
-        color: "#FFE0EC",
-        quote:
-          "The mindset intervention did not calm them down; it changed the meaning, and then the consequences, of their anxiety",
-      },
-      {
         timestamp: 1637147496000,
         chapter:
           "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
@@ -897,15 +861,6 @@ const books = {
           "Avoiding what makes them anxious only reinforces their fears and increases their worrying about future anxiety.",
       },
       {
-        timestamp: 1636709649000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.397142790697674,
-        color: "#FFE0EC",
-        quote:
-          "“You’re the kind of person whose performance improves under pressure",
-      },
-      {
         timestamp: 1636709538000,
         chapter:
           "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
@@ -932,15 +887,6 @@ const books = {
           ". Every time these students perform well despite—or perhaps because of—their nerves, they learn to trust themselves under pressure",
       },
       {
-        timestamp: 1636628297000,
-        chapter:
-          "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
-        percent: 0.381041860465116,
-        color: "#FFE0EC",
-        quote:
-          "Although not necessarily less anxious during the exam, they were less worried about their anxiety",
-      },
-      {
         timestamp: 1636457332000,
         chapter:
           "CHAPTER 4 | engage | how anxiety helps you rise to the challenge",
@@ -964,14 +910,6 @@ const books = {
         color: "#FFE0EC",
         quote:
           "Families and communities came together to heal and move forward.",
-      },
-      {
-        timestamp: 1636279129000,
-        chapter: "CHAPTER 3 | a meaningful life is a stressful life",
-        percent: 0.336398277841561,
-        color: "#FFE0EC",
-        quote:
-          "The more directly one aims to maximize pleasure and avoid pain, the more likely one is to produce instead a life bereft of depth, meaning, and community.”",
       },
       {
         timestamp: 1636108996000,
@@ -1022,14 +960,6 @@ const books = {
           "higher levels of stress seem to go along with things we want: love, health, and satisfaction with our lives.",
       },
       {
-        timestamp: 1635503495000,
-        chapter: "CHAPTER 2 | beyond fight-or-flight",
-        percent: 0.26655198568873,
-        color: "#FFE0EC",
-        quote:
-          ". It is something to be appreciated, harnessed, and even trusted.",
-      },
-      {
         timestamp: 1635417681000,
         chapter: "CHAPTER 2 | beyond fight-or-flight",
         percent: 0.250451806797853,
@@ -1062,7 +992,7 @@ const books = {
           "Stress leaves an imprint on your brain that prepares you to deal with similar stress the next time you encounter it",
       },
       {
-        timestamp: 1635159155000,
+        timestamp: 1635159155001,
         chapter: "CHAPTER 2 | beyond fight-or-flight",
         percent: 0.243296457960644,
         color: "#FFE0EC",
@@ -1070,7 +1000,7 @@ const books = {
           "Once you appreciate that going through stress makes you better at it, you may find it easier to face each new challenge",
       },
       {
-        timestamp: 1635159155000,
+        timestamp: 1635159155002,
         chapter: "CHAPTER 2 | beyond fight-or-flight",
         percent: 0.243296457960644,
         color: "#FFE0EC",

@@ -1,39 +1,52 @@
 import styled from "styled-components";
-import React from "react";
-import { useContext, useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
+import React, { useEffect } from "react";
+import { useContext } from "react";
+import { NavLink } from "react-router-dom";
 import { SimpleContext } from "../SimpleContext";
 
 const Titles = () => {
-  const { responseData, selectedBook, setSelectedBook } =
+  const { responseData, booksJourney, setBooksJourney } =
     useContext(SimpleContext);
+
+  useEffect(() => {
+    fetch("/api/get-books-journey")
+      .then((res) => res.json())
+      .then((response) => {
+        // console.log(response);
+        setBooksJourney(response.data);
+      })
+      .catch((error) => {
+        console.log(`Error in feed: ${error}`);
+      });
+  }, []);
 
   return (
     <Wrapper>
       <Title>Titles</Title>
-
       {responseData.map((book) => {
-        const journey = [];
         return (
           <React.Fragment key={book._id}>
-            {/* {book._id} */}
-            {book.quotes[0].forEach((element) => {
-              //console.log(element);
-              if (element.readingJourney) {
-                //console.log("hello");
-                journey.push(element.readingJourney);
-              }
-              //console.log(journey);
-            })}
             <Ul>
-              {journey.map((item) => {
-                //console.log(book._id);
+              {book.quotes[0].map((element) => {
+                // console.log(element);
                 return (
-                  <Li key={item.percent}>
-                    <Link to={`/chapters/${book._id}`}>{item.title}</Link>
+                  <Li key={element.readingJourney.titleId}>
+                    <NavLinkMenu to={`/chapters/${book._id}`}>
+                      {element.readingJourney.title}
+                    </NavLinkMenu>
                   </Li>
                 );
               })}
+              {/* {booksJourney.map((item) => {
+                //console.log(item);
+                return (
+                  <Li key={item.titleId}>
+                    <NavLinkMenu to={`/chapters/${book._id}`}>
+                      {item.title}
+                    </NavLinkMenu>
+                  </Li>
+                );
+              })} */}
             </Ul>
           </React.Fragment>
         );
@@ -64,6 +77,20 @@ const Li = styled.li`
 `;
 const Title = styled.h4`
   padding: 7% 5% 0 4%;
+`;
+const NavLinkMenu = styled(NavLink)`
+  color: #000;
+  text-decoration: none;
+  font-size: 1rem;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: underline;
+  }
+  &:link {
+  }
+  &:active {
+  }
 `;
 
 export default Titles;

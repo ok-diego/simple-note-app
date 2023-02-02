@@ -7,6 +7,7 @@ export const SimpleProvider = ({ children }) => {
   const [state, setState] = useState([]);
   const [responseData, setResponseData] = useState([]);
   const [selectedBook, setSelectedBook] = useState([]);
+  const [booksJourney, setBooksJourney] = useState([]);
 
   // fetch GET /get-books to get all books IDs
   useEffect(() => {
@@ -30,6 +31,8 @@ export const SimpleProvider = ({ children }) => {
         setResponseData,
         selectedBook,
         setSelectedBook,
+        booksJourney,
+        setBooksJourney,
       }}
     >
       {children}
