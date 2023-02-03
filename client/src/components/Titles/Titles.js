@@ -30,11 +30,16 @@ const Titles = () => {
               {book.quotes[0].map((element) => {
                 // console.log(element);
                 return (
-                  <Li key={element.readingJourney.titleId}>
-                    <NavLinkMenu to={`/chapters/${book._id}`}>
-                      {element.readingJourney.title}
-                    </NavLinkMenu>
-                  </Li>
+                  <React.Fragment key={element.readingJourney.titleId}>
+                    <Li>
+                      <NavLinkMenu to={`/chapters/${book._id}`}>
+                        <DivTitle>{element.readingJourney.title}</DivTitle>
+                      </NavLinkMenu>
+                    </Li>
+                    <Li>
+                      <DivAuthor>{element.readingJourney.author}</DivAuthor>
+                    </Li>
+                  </React.Fragment>
                 );
               })}
               {/* {booksJourney.map((item) => {
@@ -59,29 +64,24 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  align-self: flex-start;
-  background-color: #bdb8d9;
-  flex: 0 0 25%;
-  min-width: 25vw;
-  min-height: 100vh;
-  //padding: 3% 5%;
 `;
 const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 1% 4%;
+  padding: 5% 0 0 0;
 `;
 const Li = styled.li`
-  padding: 3% 0 0 0;
+  padding: 0 0 0 0;
+  margin: 2% 0 0 0;
 `;
-const Title = styled.h4`
-  padding: 7% 5% 0 4%;
+const Title = styled.h3`
+  padding: 0 0 0 0;
+  font-family: var(--font-heading);
 `;
 const NavLinkMenu = styled(NavLink)`
-  color: #000;
   text-decoration: none;
-  font-size: 1rem;
+  padding: 0 0 0 0;
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
@@ -92,5 +92,15 @@ const NavLinkMenu = styled(NavLink)`
   &:active {
   }
 `;
-
+const DivAuthor = styled.div`
+  padding: 0 0 0 0;
+  margin: 0.5rem 0 0 0;
+`;
+const DivTitle = styled.div`
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0 0 0 0;
+  color: var(--color-title);
+`;
 export default Titles;

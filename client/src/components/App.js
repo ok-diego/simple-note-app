@@ -11,14 +11,11 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Header />
-      {/* <Home /> */}
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/chapters/:id" element={<Chapters />} />
         <Route path="/quotes/:id/:chapterId" element={<Quotes />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

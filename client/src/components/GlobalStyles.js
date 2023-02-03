@@ -2,9 +2,11 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root {
-        --color-primary: #000;
-        --font-heading: arial;
-        --font-body: arial;
+        --color-primary: #06080D;
+        --color-secondary: #fff;
+        --color-title: #A6588A;
+        --font-heading: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+        --font-body: 'Merriweather', 'Georgia', serif;
     }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -32,6 +34,7 @@ export default createGlobalStyle`
       font-size: 100%;
       vertical-align: baseline;
       font-family: var(--font-body);
+      color: var(--color-primary);
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
@@ -78,5 +81,22 @@ li,
 blockquote,
 input {
   font-family: var(--font-body);
+}
+.dark-mode {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
+.header {
+  color: var(--color-title);
+  font-size: 1.4rem;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &:link {
+  }
+  &:active {
+  }
 }
 `;

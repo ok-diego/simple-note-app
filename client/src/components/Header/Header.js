@@ -1,12 +1,15 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = (props) => {
+  const { header } = props;
+
   return (
     <Wrapper>
       <NavLinkLogo to="/">
-        <h3>Simple Note</h3>
+        <h2 className={`${header ? "header" : null}`}>Simple Note</h2>
       </NavLinkLogo>
+      <div>React toggle</div>
     </Wrapper>
   );
 };
@@ -15,11 +18,8 @@ const Wrapper = styled.div`
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  width: 100%;
-  height: 50px;
-  background-color: #9f8fbf;
-  padding: 0 0 0 1%;
-  font-weight: 400;
+  width: 39.375rem;
+  margin-bottom: 2.625rem;
 `;
 const NavLinkLogo = styled(NavLink)`
   color: #000;

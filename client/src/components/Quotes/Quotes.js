@@ -3,7 +3,8 @@ import React, { useContext, useEffect } from "react";
 import { useParams, NavLink } from "react-router-dom";
 import { SimpleContext } from "../SimpleContext";
 
-import Home from "../Home";
+import Header from "../Header";
+import Footer from "../Footer";
 
 const Quotes = () => {
   const { responseData, selectedBook } = useContext(SimpleContext);
@@ -15,40 +16,42 @@ const Quotes = () => {
     responseData &&
     selectedBook && (
       <Wrapper>
-        <Home />
-        <Main>
-          <Title>Quotes</Title>
-          {/* {console.log(responseData)} */}
-
+        <Header header />
+        <Title>Quotes</Title>
+        {/* {console.log(responseData)} */}
+        <Ul>
           {responseData.map((book) => {
             // {console.log(book._id)}
 
             if (book._id == id) {
               return (
                 <React.Fragment key={book._id}>
-                  <Ul>
-                    {book.quotes[1].map((element) => {
-                      // console.log(element);
-                      if (element.chapter == chapterId) {
-                        return <Li key={element.timestamp}>{element.quote}</Li>;
-                      }
-                    })}
-                  </Ul>
+                  {book.quotes[1].map((element) => {
+                    // console.log(element);
+                    if (element.chapter == chapterId) {
+                      return <Li key={element.timestamp}>{element.quote}</Li>;
+                    }
+                  })}
                 </React.Fragment>
               );
             }
           })}
-        </Main>
+        </Ul>
+        <Footer />
       </Wrapper>
     )
   );
 };
 const Wrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
+  align-content: flex-start;
   align-items: flex-start;
-  align-self: flex-start;
+  max-width: 42rem;
+  height: 100vh;
+  margin: auto;
+  padding: 2.625rem 1.3125rem;
 `;
 const Main = styled.ul`
   display: flex;
@@ -56,20 +59,19 @@ const Main = styled.ul`
   justify-content: flex-start;
   align-items: flex-start;
   align-self: flex-start;
-  flex: 0 0 70%;
-  padding: 2% 3%;
 `;
-const Title = styled.h4`
-  //padding: 1% 0 0 0;
+const Title = styled.h3`
+  font-family: var(--font-heading);
 `;
 const Ul = styled.ul`
-  display: flex;
-  flex-direction: column;
+  margin: 0 0 0 0;
   padding: 0 0 0 0;
+  font-weight: 300;
+  padding: 2% 0 0 0;
 `;
 const Li = styled.li`
-  flex-direction: column;
-  padding: 1% 0 0 0;
+  padding: 0 0 0 0;
+  margin: 3% 0 0 0;
 `;
 const NavLinkMenu = styled(NavLink)`
   color: #000;
