@@ -4,7 +4,8 @@ export default createGlobalStyle`
     :root {
         --color-primary: #06080D;
         --color-secondary: #fff;
-        --color-title: #A6588A;
+        --color-title-primary: #A6588A;
+        --color-title-secondary: #c18aad;
         --font-heading: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
         --font-body: 'Merriweather', 'Georgia', serif;
     }
@@ -87,12 +88,13 @@ input {
   color: var(--color-secondary);
 }
 .header {
-  color: var(--color-title);
+  color: var(--color-title-primary);
   font-size: 1.4rem;
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    color: var(--color-title-secondary);
+    text-decoration: none;
   }
   &:link {
   }

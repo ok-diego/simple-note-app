@@ -28,7 +28,7 @@ const NavLinkLogo = styled(NavLink)`
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
-    text-decoration: underline;
+    text-decoration: none;
   }
   &:link {
   }

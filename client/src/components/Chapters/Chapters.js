@@ -90,7 +90,7 @@ const NavLinkMenu = styled(NavLink)`
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
-    text-decoration: underline;
+    text-decoration: none;
   }
   &:link {
   }
@@ -102,7 +102,7 @@ const DivChapter = styled.div`
   font-size: 1.2rem;
   font-weight: 600;
   padding: 0 0 0 0;
-  color: var(--color-title);
+  color: var(--color-title-primary);
   margin: 3% 0 0 0;
 `;
 

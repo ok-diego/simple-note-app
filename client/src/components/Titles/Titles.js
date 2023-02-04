@@ -84,8 +84,9 @@ const NavLinkMenu = styled(NavLink)`
   padding: 0 0 0 0;
 
   &:hover {
-    color: rgba(0, 0, 0, 0.8);
-    text-decoration: underline;
+    //color: rgba(0, 0, 0, 0.8);
+    color: var(--color-title-secondary);
+    text-decoration: none;
   }
   &:link {
   }
@@ -101,6 +102,6 @@ const DivTitle = styled.div`
   font-size: 1.2rem;
   font-weight: 600;
   padding: 0 0 0 0;
-  color: var(--color-title);
+  color: var(--color-title-primary);
 `;
 export default Titles;

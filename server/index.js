@@ -5,7 +5,8 @@ const morgan = require("morgan");
 
 //const app = express();
 
-const PORT = 8000;
+//const PORT = 8000;
+const PORT = process.env.PORT || 8000;
 
 const { getBooks, getBooksJourney, getBooksChapters } = require("./handlers");
 
