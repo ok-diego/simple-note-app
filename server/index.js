@@ -8,7 +8,13 @@ const morgan = require("morgan");
 //const PORT = 8000;
 const PORT = process.env.MONGO_URI || 8000;
 
-const { getBooks, getBooksJourney, getBooksChapters } = require("./handlers");
+// const { getBooks, getBooksJourney, getBooksChapters } = require("./handlers");
+
+const {
+  getBooks,
+  getBooksJourney,
+  getBooksChapters,
+} = require("./server/netlify/functions/get_books/get_books.js");
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
