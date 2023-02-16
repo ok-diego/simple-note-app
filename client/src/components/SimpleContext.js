@@ -12,15 +12,31 @@ export const SimpleProvider = ({ children }) => {
   // fetch GET /get-books to get all books IDs
   useEffect(() => {
     fetch("/api/get-books")
+      //fetch("/.netlify/functions/get_books")
       .then((res) => res.json())
       .then((response) => {
         console.log(response);
-        setResponseData(response.data);
+        setResponseData(response.body);
       })
       .catch((error) => {
         console.log(`Error in Feed: ${error}`);
       });
   }, []);
+
+  // {
+  //   async () => {
+  //     try {
+  //       await fetch("/.netlify/functions/get_books")
+  //         .then((res) => res.json())
+  //         .then((response) => {
+  //           console.log(response);
+  //           setResponseData(response.body);
+  //         });
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+  // }
 
   return (
     <SimpleContext.Provider

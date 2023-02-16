@@ -3,7 +3,7 @@
 const { MongoClient, ObjectId } = require("mongodb");
 
 require("dotenv").config();
-const { MONGO_URI } = process.env;
+const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
 // console.log(process.env);
 
 const options = {
@@ -18,12 +18,24 @@ const getBooks = async (req, res) => {
 
   try {
     // connect to the client
-    await client.connect;
+    await client.connect();
 
     // connect to the database
-    const db = client.db("simple_note");
+    //const db = client.db("simple_note");
+    const db = client.db(MONGO_DATABASE);
 
-    const findOneResult = await db.collection("books").find().toArray();
+    //const findOneResult = await db.collection("books").find().toArray();
+    const findOneResult = await db
+      .collection(MONGO_COLLECTION)
+      .find()
+      .toArray();
+
+    // we can limit the results with limit
+    // const findOneResult = await db
+    // .collection(MONGO_COLLECTION)
+    // .find()
+    // .limit(10)
+    // .toArray();
 
     if (findOneResult.length > 0) {
       res
@@ -47,12 +59,17 @@ const getBooksJourney = async (req, res) => {
 
   try {
     // connect to the client
-    await client.connect;
+    await client.connect();
 
     // connect to the database
-    const db = client.db("simple_note");
+    //const db = client.db("simple_note");
+    const db = client.db(MONGO_DATABASE);
 
-    const findOneResult = await db.collection("books").find().toArray();
+    //const findOneResult = await db.collection("books").find().toArray();
+    const findOneResult = await db
+      .collection(MONGO_COLLECTION)
+      .find()
+      .toArray();
 
     let journeyValues = [];
 
@@ -91,7 +108,8 @@ const getBooksChapters = async (req, res) => {
     await client.connect();
 
     // connect to the database
-    const db = client.db("simple_note");
+    //const db = client.db("simple_note");
+    const db = client.db(MONGO_DATABASE);
 
     // set req.params
     // our books ids are strings(not numbers)
@@ -99,7 +117,10 @@ const getBooksChapters = async (req, res) => {
     const _id = req.params._id;
     console.log(_id);
 
-    const findOneResult = await db.collection("books").findOne({ _id });
+    //const findOneResult = await db.collection("books").findOne({ _id });
+    const findOneResult = await db
+      .collection(MONGO_COLLECTION)
+      .findOne({ _id });
     //console.log(findOneResult);
 
     let chaptersValues = [];

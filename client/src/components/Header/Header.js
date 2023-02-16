@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 
+import ToggleSwitch from "../ToggleSwitch";
+
 const Header = (props) => {
   const { header } = props;
 
@@ -9,7 +11,8 @@ const Header = (props) => {
       <NavLinkLogo to="/">
         <h2 className={`${header ? "header" : null}`}>Simple Note</h2>
       </NavLinkLogo>
-      <div>React toggle</div>
+      <ToggleSwitch />
+      {/* <Theme>React toggle</Theme> */}
     </Wrapper>
   );
 };
@@ -35,5 +38,6 @@ const NavLinkLogo = styled(NavLink)`
   &:active {
   }
 `;
+const Theme = styled.div``;
 
 export default Header;
