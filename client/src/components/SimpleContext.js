@@ -16,7 +16,7 @@ export const SimpleProvider = ({ children }) => {
       .then((res) => res.json())
       .then((response) => {
         console.log(response);
-        setResponseData(response.body);
+        setResponseData(response.data);
       })
       .catch((error) => {
         console.log(`Error in Feed: ${error}`);

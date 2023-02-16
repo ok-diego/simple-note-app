@@ -34,7 +34,8 @@
 // };
 
 // module.exports = { handler };
-"use strict";
+
+//"use strict";
 
 const { MongoClient, ObjectId } = require("mongodb");
 

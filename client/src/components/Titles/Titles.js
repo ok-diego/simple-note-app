@@ -8,17 +8,17 @@ const Titles = () => {
   const { responseData, booksJourney, setBooksJourney } =
     useContext(SimpleContext);
 
-  useEffect(() => {
-    fetch("/api/get-books-journey")
-      .then((res) => res.json())
-      .then((response) => {
-        // console.log(response);
-        setBooksJourney(response.data);
-      })
-      .catch((error) => {
-        console.log(`Error in feed: ${error}`);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/get-books-journey")
+  //     .then((res) => res.json())
+  //     .then((response) => {
+  //       // console.log(response);
+  //       setBooksJourney(response.data);
+  //     })
+  //     .catch((error) => {
+  //       console.log(`Error in feed: ${error}`);
+  //     });
+  // }, []);
 
   return (
     <Wrapper>

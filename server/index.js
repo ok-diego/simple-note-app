@@ -14,7 +14,7 @@ const {
   getBooks,
   getBooksJourney,
   getBooksChapters,
-} = require("./server/netlify/functions/get_books/get_books.js");
+} = require("./netlify/functions/get_books/get_books.js");
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
