@@ -1,8 +1,12 @@
 {
+  "private": true,
   "name": "hey",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ok-diego/simple-note.git",
   "author": "ok-diego <hello.okdiego@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "workspaces": [
+    "server/*"
+  ]
 }
