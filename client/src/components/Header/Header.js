@@ -38,6 +38,6 @@ const NavLinkLogo = styled(NavLink)`
   &:active {
   }
 `;
-const Theme = styled.div``;
+// const Theme = styled.div``;
 
 export default Header;

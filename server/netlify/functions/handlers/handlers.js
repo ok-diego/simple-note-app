@@ -1,40 +1,3 @@
-// // Docs on event and context https://docs.netlify.com/functions/build/#code-your-fu
-// const { MongoClient, ObjectId } = require("mongodb");
-
-// require("dotenv").config();
-// const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
-
-// const options = {
-//   useNewUrlParser: true,
-//   useUnifiedTopology: true,
-// };
-
-// const mongoClient = new MongoClient(MONGO_URI, options);
-
-// const clientPromise = mongoClient.connect;
-
-// const handler = async (event) => {
-//   try {
-//     const database = (await clientPromise).db(MONGO_DATABASE);
-//     const collection = database.collection(MONGO_COLLECTION);
-//     const results = await collection.find({}).limit(10).toArray();
-
-//     if (results.length > 0) {
-//       res.status(200).json({ status: 200, data: results, message: "success!" });
-//     } else {
-//       res.status(404).json({ status: 404, message: "something went wrong" });
-//     }
-//     //   return {
-//     //     statusCode: 200,
-//     //     body: JSON.stringify(results),
-//     //   };
-//   } catch (error) {
-//     return { statusCode: 500, body: error.toString() };
-//   }
-// };
-
-// module.exports = { handler };
-
 "use strict";
 
 const { MongoClient, ObjectId } = require("mongodb");
@@ -78,52 +41,6 @@ const getBooks = async (req, res) => {
       res
         .status(200)
         .json({ status: 200, data: findOneResult, message: "success!" });
-    } else {
-      res.status(404).json({ status: 404, message: "something went wrong" });
-    }
-  } catch (error) {
-    console.log(error);
-  }
-
-  client.close();
-  console.log("disconnected!");
-};
-
-// GET all books journeys
-const getBooksJourney = async (req, res) => {
-  // create a new mongo client
-  const client = new MongoClient(MONGO_URI, options);
-
-  try {
-    // connect to the client
-    await client.connect();
-
-    // connect to the database
-    //const db = client.db("simple_note");
-    const db = client.db(MONGO_DATABASE);
-
-    //const findOneResult = await db.collection("books").find().toArray();
-    const findOneResult = await db
-      .collection(MONGO_COLLECTION)
-      .find()
-      .toArray();
-
-    let journeyValues = [];
-
-    findOneResult.map((book) => {
-      return book.quotes[0].forEach((element) => {
-        if (element.readingJourney) {
-          journeyValues.push(element.readingJourney);
-        }
-      });
-    });
-
-    console.log(journeyValues);
-
-    if (journeyValues.length > 0) {
-      res
-        .status(200)
-        .json({ status: 200, data: journeyValues, message: "success!" });
     } else {
       res.status(404).json({ status: 404, message: "something went wrong" });
     }
@@ -196,6 +113,5 @@ const getBooksChapters = async (req, res) => {
 
 module.exports = {
   getBooks,
-  getBooksJourney,
   getBooksChapters,
 };

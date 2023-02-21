@@ -3,8 +3,6 @@
 const express = require("express");
 const morgan = require("morgan");
 
-//const app = express();
-
 //const PORT = 8000;
 const PORT = process.env.MONGO_URI || 8888;
 
@@ -12,9 +10,8 @@ const PORT = process.env.MONGO_URI || 8888;
 
 const {
   getBooks,
-  getBooksJourney,
   getBooksChapters,
-} = require("./netlify/functions/get_books/get_books");
+} = require("./netlify/functions/handlers/handlers");
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan
@@ -28,7 +25,6 @@ express()
 
   // set endpoints
   .get("/api/get-books", getBooks)
-  .get("/api/get-books-journey", getBooksJourney)
   .get("/api/get-book-chapters/:_id", getBooksChapters)
 
   // this our catch all endpoint
