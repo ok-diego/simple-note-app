@@ -1,0 +1,8 @@
+# client netlify.toml
+[build]
+  command = "yarn run build"
+  functions = "../server/netify/functions/handlers"
+  publish = "build"
+
+[build.environment]
+  APP_SPECIFIC_FLAG = "true"
