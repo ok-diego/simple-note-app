@@ -12,6 +12,8 @@ const {
   getBooks,
   getBooksChapters,
 } = require("/.netlify/functions/handlers/handlers");
+// we call the ntl functions with .netlify so we don't have
+// any name clashes with other apis
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan

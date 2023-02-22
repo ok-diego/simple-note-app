@@ -1,7 +1,7 @@
 # client netlify.toml
 [build]
   command = "yarn run build"
-  functions = "../server/netify/functions/handlers"
+  functions = "/server/netlify/functions/handlers"
   publish = "build"
 
 [build.environment]
