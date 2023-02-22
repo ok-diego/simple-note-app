@@ -11,7 +11,7 @@ const PORT = process.env.MONGO_URI || 8888;
 const {
   getBooks,
   getBooksChapters,
-} = require("./netlify/functions/handlers/handlers");
+} = require("/.netlify/functions/handlers/handlers");
 
 express()
   // This will give us will log more info to the console. see https://www.npmjs.com/package/morgan

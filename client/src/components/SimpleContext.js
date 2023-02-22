@@ -12,7 +12,7 @@ export const SimpleProvider = ({ children }) => {
   // fetch GET /get-books to get all books IDs
   useEffect(() => {
     fetch("/api/get-books")
-      //fetch("/.netlify/functions/get_books")
+      //fetch("/.netlify/functions/handlers/handlers.js")
       .then((res) => res.json())
       .then((response) => {
         console.log(response);
