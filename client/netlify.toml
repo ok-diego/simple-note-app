@@ -1,8 +1,11 @@
 # client netlify.toml
 [build]
   command = "yarn run build"
-  functions = "/server/netlify/functions/handlers"
+  functions = "./netlify/functions/handlers"
   publish = "build"
 
 [build.environment]
   APP_SPECIFIC_FLAG = "true"
+  
+  [dev]
+  targetPort = 3000

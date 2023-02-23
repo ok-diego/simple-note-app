@@ -11,7 +11,8 @@ const PORT = process.env.MONGO_URI || 8888;
 const {
   getBooks,
   getBooksChapters,
-} = require("/.netlify/functions/handlers/handlers");
+} = require("../netlify/functions/handlers/handlers");
+
 // we call the ntl functions with .netlify so we don't have
 // any name clashes with other apis
 
