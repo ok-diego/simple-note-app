@@ -1,13 +1,46 @@
 {
-  "name": "hey",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/ok-diego/simple-note.git",
   "author": "ok-diego <hello.okdiego@gmail.com>",
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "dotenv": "16.0.3",
+    "dotenv-webpack": "8.0.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.8.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "5.3.6",
+    "web-vitals": "3.1.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "name": "hey",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "./client",
-    "./server"
-  ]
+  "proxy": "http://localhost:8888/",
+  "repository": "https://github.com/ok-diego/simple-note.git",
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "echo \"client react-scripts test\""
+  },
+  "version": "1.0.0"
 }
