@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 
 export const SimpleContext = createContext(null);
 
@@ -11,8 +10,8 @@ export const SimpleProvider = ({ children }) => {
 
   // fetch GET /get-books to get all books IDs
   useEffect(() => {
-    fetch("/api/get-books")
-      //fetch("/.netlify/functions/handlers/handlers.js")
+    //fetch("/api/get-books")
+    fetch("/.netlify/functions/api/handler.js")
       .then((res) => res.json())
       .then((response) => {
         console.log(response);
@@ -22,21 +21,6 @@ export const SimpleProvider = ({ children }) => {
         console.log(`Error in Feed: ${error}`);
       });
   }, []);
-
-  // {
-  //   async () => {
-  //     try {
-  //       await fetch("/.netlify/functions/handlers")
-  //         .then((res) => res.json())
-  //         .then((response) => {
-  //           console.log(response);
-  //           setResponseData(response.body);
-  //         });
-  //     } catch (error) {
-  //       console.log(error);
-  //     }
-  //   };
-  // }
 
   return (
     <SimpleContext.Provider

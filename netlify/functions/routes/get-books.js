@@ -1,3 +1,16 @@
+"use strict";
+
+const { MongoClient } = require("mongodb");
+
+require("dotenv").config();
+const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
+// console.log(process.env);
+
+const options = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+};
+
 // GET all books data
 export const getBooks = async (req, res) => {
   // create a new mongo client
