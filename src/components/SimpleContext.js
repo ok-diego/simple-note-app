@@ -26,7 +26,7 @@ export const SimpleProvider = ({ children }) => {
   // {
   //   async () => {
   //     try {
-  //       await fetch("/.netlify/functions/get_books")
+  //       await fetch("/.netlify/functions/handlers")
   //         .then((res) => res.json())
   //         .then((response) => {
   //           console.log(response);
