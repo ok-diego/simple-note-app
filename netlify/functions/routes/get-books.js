@@ -32,13 +32,6 @@ export const getBooks = async (req, res) => {
       .find()
       .toArray();
 
-    // we can limit the results with limit
-    // const findOneResult = await db
-    // .collection(MONGO_COLLECTION)
-    // .find()
-    // .limit(10)
-    // .toArray();
-
     if (findOneResult.length > 0) {
       res
         .status(200)
