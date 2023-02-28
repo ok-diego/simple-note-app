@@ -1,8 +1,10 @@
 "use strict";
 
-const { MongoClient } = require("mongodb");
+//const { MongoClient } = require("mongodb");
+import { MongoClient } from "mongodb";
 
 require("dotenv").config();
+
 const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
 // console.log(process.env);
 

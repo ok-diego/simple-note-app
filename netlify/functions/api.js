@@ -1,7 +1,9 @@
 import express from "express";
+import { json } from "express";
 import { Router } from "express";
-import { getBooks } from "./routes/get-books.js";
-import { getBooksChapters } from "./routes/get-books-chapters.js";
+import serverless from "serverless-http";
+import { getBooks } from "./routes/get-books";
+import { getBooksChapters } from "./routes/get-books-chapters";
 
 export async function handler(event, context) {
   const api = express();
