@@ -29,8 +29,12 @@ const getBooksChapters = require("./routes/get-books-chapters");
 //app.listen(PORT), () => console.log(`Listening on port ${PORT}`);
 
 exports.handler = async (event, context) => {
+  // return {
+  //   statusCode: 200,
+  //   body: JSON.stringify({ message: "Hello World" }),
+  // };
   const app = express();
-  const PORT = 8888;
+  const PORT = process.env.MONGO_URI || 8888;
   // set endpoints
   router.get("/get-books", getBooks);
   router.get("/get-book-chapters/:_id", getBooksChapters);
