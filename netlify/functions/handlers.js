@@ -85,7 +85,7 @@ exports.handler = async (event, context) => {
     const data = await getBooks();
     return {
       statusCode: 200,
-      body: JSON.stringify({ data: findOneResult }),
+      data,
     };
   } catch (error) {
     console.log(error); // output to netlify function log
