@@ -46,7 +46,8 @@
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "echo \"client react-scripts test\"",
-    "dev": "netlify dev"
+    "dev": "netlify dev",
+    "server": "nodemon netlify/functions/handlers.js"
   },
   "version": "1.0.0"
 }

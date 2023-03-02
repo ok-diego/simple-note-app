@@ -1,7 +1,19 @@
 "use strict";
 
-//const { MongoClient } = require("mongodb");
-import { MongoClient } from "mongodb";
+const express = require("express");
+// const router = express.Router();
+
+// router.get("/", (req, res) => {
+//   res.status(200).json({ message: "Get books!" });
+// });
+
+//module.exports = router;
+
+//import { MongoClient } from "mongodb";
+// const { MongoClient } = require("mongodb");
+
+// // import * as dotenv from "dotenv";
+// // dotenv.config();
 
 require("dotenv").config();
 
@@ -13,8 +25,8 @@ const options = {
   useUnifiedTopology: true,
 };
 
-// GET all books data
-export const getBooks = async (req, res) => {
+// // GET all books data
+exports.getBooks = async (req, res) => {
   // create a new mongo client
   const client = new MongoClient(MONGO_URI, options);
 

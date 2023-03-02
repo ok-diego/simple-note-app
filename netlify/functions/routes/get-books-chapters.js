@@ -1,8 +1,10 @@
 "use strict";
 
-//const { MongoClient } = require("mongodb");
-import { MongoClient } from "mongodb";
+//import { MongoClient } from "mongodb";
+const { MongoClient } = require("mongodb");
 
+// import * as dotenv from "dotenv";
+// dotenv.config();
 require("dotenv").config();
 
 const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
@@ -14,7 +16,7 @@ const options = {
 };
 
 // GET one book chapters data by book id
-export const getBooksChapters = async (req, res) => {
+exports.getBooksChapters = async (req, res) => {
   // create a new mongodb client
   const client = new MongoClient(MONGO_URI, options);
 
