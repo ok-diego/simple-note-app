@@ -1,29 +1,27 @@
 // ES modules syntax
-// import * as dotenv from "dotenv";
-// dotenv.config();
+//import * as dotenv from "dotenv";
+//dotenv.config();
 
-// import express from "express";
+//import express from "express";
 //import { json } from "express";
 //import { Router } from "express";
 //import serverless from "serverless-http";
 //import { getBooks } from "./routes/get-books.js";
 //import { getBooksChapters } from "./routes/get-books-chapters.js";
+//import { MongoClient } from "mongodb";
+//import fetch from "node-fetch";
 
 // CommonJS syntax
 const dotenv = require("dotenv").config();
 const express = require("express");
 const json = require("express");
-//const serverless = require("serverless-http");
+const serverless = require("serverless-http");
 //const router = express.Router();
 //const router = require("./routes/get-books");
 //const getBooks = require("./routes/get-books");
 //const getBooksChapters = require("./routes/get-books-chapters");
-//import { MongoClient } from "mongodb";
-//const { MongoClient } = require("mongodb");
-
-//const fetch = require("notch-fetch");
-import fetch from "node-fetch";
 const { MongoClient } = require("mongodb");
+//const fetch = require("notch-fetch");
 
 // // GET all books data
 async function getBooks(req, res) {
@@ -79,6 +77,8 @@ exports.handler = async (event, context) => {
 
   app.use(json());
 
+  app.use("/api/get-books", getBooks);
+
   app.listen(PORT), () => console.log(`Listening on port ${PORT}`);
 
   try {
@@ -97,5 +97,5 @@ exports.handler = async (event, context) => {
 
   // app.use("/api/", router);
 
-  // return serverless(app)(event, context);
+  //return serverless(app)(event, context);
 };
