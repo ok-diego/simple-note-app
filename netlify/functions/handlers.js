@@ -20,82 +20,105 @@ const serverless = require("serverless-http");
 //const router = require("./routes/get-books");
 //const getBooks = require("./routes/get-books");
 //const getBooksChapters = require("./routes/get-books-chapters");
-const { MongoClient } = require("mongodb");
+//const { MongoClient } = require("mongodb");
 //const fetch = require("notch-fetch");
 
+const { MongoClient } = require("mongodb");
+
+const mongoClient = new MongoClient(process.env.MONGODB_URI);
+
+const clientPromise = mongoClient.connect();
+
 // // GET all books data
-async function getBooks(req, res) {
-  const { MONGO_URI, MONGO_DATABASE, MONGO_COLLECTION } = process.env;
+// async function getBooks(req, res) {
+//   const { MONGODB_URI, MONGODB_DATABASE, MONGODB_COLLECTION } = process.env;
 
-  const options = {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  };
+//   const options = {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   };
 
-  // create a new mongo client
-  const client = new MongoClient(MONGO_URI, options);
+//   // create a new mongo client
+//   const client = new MongoClient(MONGODB_URI, options);
 
-  try {
-    await client.connect();
-    const db = client.db(MONGO_DATABASE);
-    const findOneResult = await db
-      .collection(MONGO_COLLECTION)
-      .find()
-      .toArray();
+//   try {
+//     await client.connect();
+//     const db = client.db(MONGODB_DATABASE);
+//     const findOneResult = await db
+//       .collection(MONGODB_COLLECTION)
+//       .find()
+//       .toArray();
 
-    if (findOneResult.length > 0) {
-      res
-        .status(200)
-        .json({ status: 200, data: findOneResult, message: "success!" });
-    } else {
-      res.status(404).json({ status: 404, message: "something went wrong" });
-    }
+//     if (findOneResult.length > 0) {
+//       res
+//         .status(200)
+//         .json({ status: 200, data: findOneResult, message: "success!" });
+//     } else {
+//       res.status(404).json({ status: 404, message: "something went wrong" });
+//     }
 
-    //return findOneResult;
-  } catch (error) {
-    console.log(error);
-    // output to netlify function log
-  } finally {
-    await client.close();
-    console.log("disconnected!");
-  }
-}
+//     //return findOneResult;
+//   } catch (error) {
+//     console.log(error);
+//     // output to netlify function log
+//   } finally {
+//     await client.close();
+//     console.log("disconnected!");
+//   }
+// }
 
 //export async function handler(event, context) {
-exports.handler = async (event, context) => {
-  // return {
-  //   statusCode: 200,
-  //   body: JSON.stringify({ message: "Hello World" }),
-  // };
+// exports.handler = async (event, context) => {
+//   // return {
+//   //   statusCode: 200,
+//   //   body: JSON.stringify({ message: "Hello World" }),
+//   // };
+//   context.callbackWaitsForEmptyEventLoop = false;
 
-  const app = express();
-  const PORT = process.env.MONGO_URI || 8888;
+//   const app = express();
+//   const PORT = process.env.MONGO_URI || 8888;
 
-  // // set endpoints
-  // router.get("/get-books", getBooks);
-  // router.get("/get-book-chapters/:_id", getBooksChapters);
+//   // // set endpoints
+//   // router.get("/get-books", getBooks);
+//   // router.get("/get-book-chapters/:_id", getBooksChapters);
 
-  app.use(json());
+//   app.use(json());
 
-  app.use("/api/get-books", getBooks);
+//   app.use("/api/get-books", getBooks);
 
-  app.listen(PORT), () => console.log(`Listening on port ${PORT}`);
+//   app.listen(PORT), () => console.log(`Listening on port ${PORT}`);
 
+//   try {
+//     const data = await getBooks();
+//     return {
+//       statusCode: 200,
+//       data,
+//     };
+//   } catch (error) {
+//     console.log(error); // output to netlify function log
+//     return {
+//       statusCode: 500,
+//       body: JSON.stringify({ msg: error.message }),
+//     };
+//   }
+
+//   // app.use("/api/", router);
+
+//   //return serverless(app)(event, context);
+// };
+
+const handler = async (event) => {
   try {
-    const data = await getBooks();
+    const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
+    const collection = database.collection(process.env.MONGODB_COLLECTION);
+    const results = await collection.find({}).limit(10).toArray();
     return {
       statusCode: 200,
-      data,
+      body: JSON.stringify(results),
     };
   } catch (error) {
-    console.log(error); // output to netlify function log
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ msg: error.message }),
-    };
+    return { statusCode: 500, body: error.toString() };
   }
-
-  // app.use("/api/", router);
-
-  //return serverless(app)(event, context);
 };
+
+module.exports = { handler };
