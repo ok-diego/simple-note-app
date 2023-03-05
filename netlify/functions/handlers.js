@@ -15,11 +15,11 @@
 const dotenv = require("dotenv").config();
 const express = require("express");
 const json = require("express");
-const serverless = require("serverless-http");
+// const serverless = require("serverless-http");
 //const router = express.Router();
 //const router = require("./routes/get-books");
-//const getBooks = require("./routes/get-books");
-//const getBooksChapters = require("./routes/get-books-chapters");
+// const { getBooks } = require("./routes/get-books");
+//const { getBooksChapters } = require("./routes/get-books-chapters");
 //const { MongoClient } = require("mongodb");
 //const fetch = require("notch-fetch");
 
@@ -29,11 +29,22 @@ const mongoClient = new MongoClient(process.env.MONGODB_URI);
 
 const clientPromise = mongoClient.connect();
 
-const handler = async (event) => {
+const handler = async (event, context) => {
   try {
     const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
     const collection = database.collection(process.env.MONGODB_COLLECTION);
     const results = await collection.find({}).limit(10).toArray();
+
+    // const app = express();
+    // const _id = req.params._id;
+
+    // app.get(`/api/get-book-chapters/${_id}`, (req, res, next) => {
+    //   res.send(req.params);
+    //   next();
+    // });
+
+    // const id = await collection.findOne({ _id });
+
     return {
       statusCode: 200,
       body: JSON.stringify(results),

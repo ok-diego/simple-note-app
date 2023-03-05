@@ -13,17 +13,20 @@ const Chapters = () => {
   const { id } = useParams();
   //console.log(id);
 
-  useEffect(() => {
-    fetch(`/api/get-book-chapters/${id}`)
-      .then((res) => res.json())
-      .then((response) => {
-        // console.log(response);
-        setSelectedBook(response.data);
-      })
-      .catch((error) => {
-        console.log(`Error in feed: ${error}`);
-      });
-  }, [id]);
+  // useEffect(() => {
+  //   fetch(`/api/get-book-chapters/${id}`)
+  //     .then((res) => res.json())
+  //     .then((response) => {
+  //       // console.log(response);
+  //       setSelectedBook(response.id);
+  //     })
+  //     .catch((error) => {
+  //       console.log(`Error in feed: ${error}`);
+  //     });
+  // }, [id]);
+
+  let chaptersValues = [];
+  let newChaptersSet = [];
 
   return (
     responseData &&
@@ -33,6 +36,33 @@ const Chapters = () => {
         <Title>Chapters</Title>
         {/* {console.log(selectedBook)} */}
         <Ul>
+          {responseData.map((book) => {
+            if (book._id === id) {
+              return (
+                <React.Fragment key={book._id}>
+                  {book.quotes[1].forEach((element) => {
+                    chaptersValues.push(element.chapter);
+                    newChaptersSet = [...new Set(chaptersValues)];
+                  })}
+                </React.Fragment>
+              );
+            }
+          })}
+          {newChaptersSet.map((chapter) => {
+            {
+              console.log(chapter);
+            }
+            return (
+              <React.Fragment key={chapter}>
+                <Li>
+                  <NavLinkMenu to={`/quotes/${id}/${chapter}`}>
+                    <DivChapter>{chapter}</DivChapter>
+                  </NavLinkMenu>
+                </Li>
+              </React.Fragment>
+            );
+          })}
+          {/* 
           {selectedBook.map((chapter) => {
             //console.log(chapter);
             return (
@@ -44,7 +74,7 @@ const Chapters = () => {
                 </Li>
               </React.Fragment>
             );
-          })}
+          })} */}
         </Ul>
         <Footer />
       </Wrapper>
