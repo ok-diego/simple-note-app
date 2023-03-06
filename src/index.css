@@ -1,0 +1,13 @@
+[data-theme="light"] {
+  --color-foreground-accent: #111111;
+  --color-foreground: #000000;
+  --color-background: #ffffff;
+  --color-background-accent: #bbbbbb;
+}
+
+[data-theme="dark"] {
+  --color-foreground-accent: #eeeeee;
+  --color-foreground: #ffffff;
+  --color-background: #000000;
+  --color-background-accent: #444444;
+}

@@ -2,12 +2,33 @@ import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
     :root {
+        background: var(--color-background);
+        color: var(--color-foreground);
         --color-primary: #06080D;
         --color-secondary: #fff;
         --color-title-primary: #A6588A;
         --color-title-secondary: #c18aad;
         --font-heading: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
         --font-body: 'Merriweather', 'Georgia', serif;
+    }
+
+    [data-theme="light"] {
+        --color-foreground-accent: #111111;
+        --color-foreground: #000000;
+        --color-background: #ffffff;
+        --color-background-accent: #bbbbbb;
+    }
+
+    [data-theme="dark"] {
+        --color-foreground-accent: #eeeeee;
+        --color-foreground: #ffffff;
+        --color-background: #000000;
+        --color-background-accent: #444444;
+    }
+
+    .app {
+      background: var(--color-background);
+      color: var(--color-foreground);
     }
 
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -35,7 +56,7 @@ export default createGlobalStyle`
       font-size: 100%;
       vertical-align: baseline;
       font-family: var(--font-body);
-      color: var(--color-primary);
+      //color: var(--color-primary);
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure,
@@ -62,7 +83,7 @@ h2,
 h3,
 label,
 button {
-  color: var(--color-primary);
+  //color: var(--color-primary);
   font-family: var(--font-heading);
   font-size: 32px;
   text-align: center;
@@ -84,16 +105,18 @@ input {
   font-family: var(--font-body);
 }
 .dark-mode {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  //background-color: var(--color-primary);
+  //color: var(--color-secondary);
 }
 .header {
-  color: var(--color-title-primary);
+  //color: var(--color-title-primary);
+  color: var(--color-foreground);
   font-size: 1.4rem;
   text-decoration: none;
 
   &:hover {
-    color: var(--color-title-secondary);
+    //color: var(--color-title-secondary);
+    color: var(--color-foreground);
     text-decoration: none;
   }
   &:link {

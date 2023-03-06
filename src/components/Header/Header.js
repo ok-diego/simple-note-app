@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
-
-import ToggleSwitch from "../ToggleSwitch";
+import ThemeToggler from "../ThemeToggler";
 
 const Header = (props) => {
   const { header } = props;
@@ -11,8 +10,7 @@ const Header = (props) => {
       <NavLinkLogo to="/">
         <h2 className={`${header ? "header" : null}`}>Simple Note</h2>
       </NavLinkLogo>
-      <ToggleSwitch />
-      {/* <Theme>React toggle</Theme> */}
+      <ThemeToggler />
     </Wrapper>
   );
 };
@@ -25,12 +23,13 @@ const Wrapper = styled.div`
   margin-bottom: 2.625rem;
 `;
 const NavLinkLogo = styled(NavLink)`
-  color: #000;
+  color: var(--color-foreground);
   text-decoration: none;
   font-size: 1rem;
 
   &:hover {
-    color: rgba(0, 0, 0, 0.8);
+    //color: rgba(0, 0, 0, 0.8);
+    //color: var(--color-foreground);
     text-decoration: none;
   }
   &:link {

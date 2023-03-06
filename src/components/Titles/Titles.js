@@ -104,4 +104,5 @@ const DivTitle = styled.div`
   padding: 0 0 0 0;
   color: var(--color-title-primary);
 `;
+
 export default Titles;
