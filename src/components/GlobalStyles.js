@@ -104,10 +104,7 @@ blockquote,
 input {
   font-family: var(--font-body);
 }
-.dark-mode {
-  //background-color: var(--color-primary);
-  //color: var(--color-secondary);
-}
+
 .header {
   //color: var(--color-title-primary);
   color: var(--color-foreground);

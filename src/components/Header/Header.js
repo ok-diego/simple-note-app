@@ -19,7 +19,7 @@ const Wrapper = styled.div`
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  width: 39.375rem;
+  width: 100%;
   margin-bottom: 2.625rem;
 `;
 const NavLinkLogo = styled(NavLink)`

@@ -7,9 +7,10 @@ const ThemeToggler = () => {
 
   return (
     <div className="theme-toggler">
-      <span className="material-icons theme-mode">wb_sunny</span>
-      {/* <span className="material-symbols-outlined theme-mode">wb_sunny</span> */}
+      {/* <span className="material-icons theme-mode">wb_sunny</span> */}
       <label htmlFor="theme-toggle" className="theme-toggle-label">
+        <span className="material-icons theme-mode theme-sunny">wb_sunny</span>
+        <span className="material-icons theme-mode theme-dark">dark_mode</span>
         <input
           type="checkbox"
           name="theme-toggle"
@@ -20,7 +21,7 @@ const ThemeToggler = () => {
         />
         <span className="theme-toggle-slider"></span>
       </label>
-      <span className="material-icons theme-mode">dark_mode</span>
+      {/* <span className="material-icons theme-mode">dark_mode</span> */}
     </div>
   );
 };
