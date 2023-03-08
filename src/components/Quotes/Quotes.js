@@ -32,7 +32,8 @@ const Quotes = () => {
                   {book.quotes[1].map((element) => {
                     // console.log(element);
                     if (element.chapter == chapterId) {
-                      quotesValues.push(element.quote, element.timestamp);
+                      quotesValues.push(element.quote);
+                      // quotesValues.sort((a, b) => a.timestamp - b.timestamp);
                       // return <Li key={element.timestamp}>{element.quote}</Li>;
                     }
                   })}
@@ -40,9 +41,10 @@ const Quotes = () => {
               );
             }
           })}
-          {quotesValues.map((quote) => {
-            quotesValues.sort((a, b) => a.timestamp - b.timestamp);
-            console.log(quote);
+          {quotesValues.filter((quote) => {
+            // if (typeof quote !== "number") {
+            //   console.log(quote);
+            // }
             return (
               <React.Fragment key={quote}>
                 <Li>{quote}</Li>
