@@ -192,6 +192,414 @@ const books = {
         quote:
           "Proactive people focus their efforts in the Circle of Influence. They work on the things they can do something about. The nature of their energy is positive, enlarging and magnifying, causing their Circle of Influence to increase.",
       },
+      {
+        timestamp: 1600167491000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.114288380952381,
+        color: "#FFB",
+        quote:
+          "Independent thinking alone is not suited to interdependent reality. Independent people who do not have the maturity to think and act interdependently may be good individual producers, but they won’t be good leaders or team players. They’re not coming from the paradigm of interdependence necessary to succeed in marriage, family, or organizational reality.",
+      },
+      {
+        timestamp: 15944758570001,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.145164170506912,
+        color: "#FFE0EC",
+        quote:
+          "Whatever your present situation, I assure you that you are not your habits. You can replace old patterns of self-defeating behavior with new patterns, new habits of effectiveness, happiness, and trust-based relationships.",
+      },
+      {
+        timestamp: 15944758570002,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.145164170506912,
+        color: "#FFE0EC",
+        quote:
+          "“That which we obtain too easily, we esteem too lightly. It is dearness only which gives everything its value. Heaven knows how to put a proper price on its goods.”",
+      },
+      {
+        timestamp: 1594475739000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.143725783549784,
+        color: "#FFE0EC",
+        quote:
+          "you’ll find that as you care less about what others think of you, you will care more about what others think of themselves and their worlds, including their relationship with you. You’ll no longer build your emotional life on other people’s weaknesses. In addition, you’ll find it easier and more desirable to change because there is something—some core deep within—that is essentially changeless",
+      },
+      {
+        timestamp: 15943840360002,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.123274769585254,
+        color: "#FFB",
+        quote:
+          "there are three kinds of assets: physical, financial, and human",
+      },
+      {
+        timestamp: 1594383922000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.122122949308756,
+        color: "#FFE0EC",
+        quote:
+          "as the story shows, true effectiveness is a function of two things: what is produced (the golden eggs) and the producing asset or capacity to produce (the goose). \n\nIf you adopt a pattern of life that focuses on golden eggs and neglects the goose, you will soon be without the asset that produces golden eggs",
+      },
+      {
+        timestamp: 1594138586000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.117514792626728,
+        color: "#FFE0EC",
+        quote:
+          "As you become truly independent, you have the foundation for effective interdependence. You have the character base from which you can effectively work on the more personality-oriented “Public Victories” of teamwork, cooperation, and communication",
+      },
+      {
+        timestamp: 1594138478000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.116362534562212,
+        color: "#FFE0EC",
+        quote:
+          "As an interdependent person, I have the opportunity to share myself deeply, meaningfully, with others, and I have access to the vast resources and potential of other human beings.",
+      },
+      {
+        timestamp: 1594138473000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.116362534562212,
+        color: "#FFB",
+        quote:
+          "giving, and for receiving love from others. If I am intellectually interdependent, I realize that I need the best thinking of other people to join with my own.",
+      },
+      {
+        timestamp: 1594138462000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.115210276497696,
+        color: "#FFB",
+        quote:
+          "Interdependence is a far more mature, more advanced concept. If I am physically interdependent, I am self-reliant and capable, but I also realize that you and I working together can accomplish far more than, even at my best, I could accomplish alone. If I am emotionally interdependent, I derive a great sense of worth within myself, but I also recognize the need for love, for",
+      },
+      {
+        timestamp: 15941383930001,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.115210276497696,
+        color: "#FFE0EC",
+        quote:
+          "Life is, by nature, highly interdependent. To try to achieve maximum effectiveness through independence is like trying to play tennis with a golf club—the tool is not suited to the reality.",
+      },
+      {
+        timestamp: 15941382230002,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.114058456221198,
+        color: "#FFE0EC",
+        quote:
+          "True independence of character empowers us to act rather than be acted upon. It frees us from our dependence on circumstances and other people and is a worthy, liberating goal. But it is not the ultimate goal in effective living.",
+      },
+      {
+        timestamp: 1594138114000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.112906198156682,
+        color: "#FFE0EC",
+        quote:
+          "But much of our current emphasis on independence is a reaction to dependence—to having others control us, define us, use us, and manipulate us.",
+      },
+      {
+        timestamp: 1594138096000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.111754377880184,
+        color: "#FFE0EC",
+        quote:
+          "If I were independent, physically, I could pretty well make it on my own. Mentally, I could think my own thoughts, I could move from one level of abstraction to another. I could think creatively and analytically and organize and express my thoughts in under­standable ways. Emotionally, I would be validated from within. I would be inner directed. My sense of worth would not be a function of being liked or treated well",
+      },
+      {
+        timestamp: 1594039146000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.107145783410138,
+        color: "#FFB",
+        quote:
+          "It’s sometimes a painful process. It’s a change that has to be motivated by a higher purpose, by the willingness to subordinate what you think you want now for what you want later. But this process produces happiness, “the object and design of our existence.” Happiness can be defined, in part at least, as the fruit of the desire and ability to sacrifice what we want now for what we want eventually.",
+      },
+      {
+        timestamp: 1594039020000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.107145783410138,
+        color: "#FFE0EC",
+        quote:
+          "By working on knowledge, skill, and desire, we can break through to new levels of personal and interpersonal effectiveness as we break with old paradigms that may have been a source of pseudo-security for years.",
+      },
+      {
+        timestamp: 1594038926000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.105993963133641,
+        color: "#FFB",
+        quote:
+          "paradigm, the what to do and the why. Skill is the how to do. And desire is the motivation, the want to do. In order to make something a habit in our lives, we have to have all three.",
+      },
+      {
+        timestamp: 15940388150002,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.104841705069124,
+        color: "#FFE0EC",
+        quote:
+          "For our purposes, we will define a habit as the intersection of knowledge, skill, and desire.",
+      },
+      {
+        timestamp: 1594038804000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.103689884792627,
+        color: "#FFE0EC",
+        quote:
+          "Habits, too, have tremendous gravity pull—more than most people realize or would admit. Breaking deeply imbedded habitual tendencies such as procrastination, impatience, criticalness, or selfishness that violate",
+      },
+      {
+        timestamp: 1594038692000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.103689884792627,
+        color: "#FFE0EC",
+        quote:
+          "Habits can be learned and unlearned. But I also know it isn’t a quick fix. It involves a process and a tremendous commitment.",
+      },
+      {
+        timestamp: 1594038557000,
+        chapter: "The Seven Habits—An Overview",
+        percent: 0.102537626728111,
+        color: "#FFE0EC",
+        quote:
+          "We are what we repeatedly do. Excellence, then, is not an act, but a habit. \n\nAristotle",
+      },
+      {
+        timestamp: 15940304110001,
+        chapter: "Inside-Out",
+        percent: 0.0967769815668203,
+        color: "#FFE0EC",
+        quote:
+          "The inside-out approach says that private victories precede public victories, that making and keeping promises to ourselves precedes making and keeping promises to others",
+      },
+      {
+        timestamp: 15940304110002,
+        chapter: "Inside-Out",
+        percent: 0.0967769815668204,
+        color: "#FFB",
+        quote:
+          "It says it is futile to put personality ahead of character, to try to improve relationships with others before improving ourselves.",
+      },
+      {
+        timestamp: 15939989770001,
+        chapter: "Inside-Out",
+        percent: 0.0956247926267281,
+        color: "#FFE0EC",
+        quote:
+          "We need a new level, a deeper level of thinking—a paradigm based on the principles that accurately describe the territory of effective human being and interacting—to solve these deep concerns.",
+      },
+      {
+        timestamp: 15939989770002,
+        chapter: "Inside-Out",
+        percent: 0.0956247926267282,
+        color: "#FFE0EC",
+        quote:
+          "a principle-centered, character-based, “inside-out” approach to personal and interpersonal effectiveness.",
+      },
+      {
+        timestamp: 1593998807000,
+        chapter: "Inside-Out",
+        percent: 0.0943747878787878,
+        color: "#FFE0EC",
+        quote:
+          "Albert Einstein observed, “The significant problems we face cannot be solved at the same level of thinking we were at when we created them.”",
+      },
+      {
+        timestamp: 1593998476000,
+        chapter: "Inside-Out",
+        percent: 0.0933212557603686,
+        color: "#FFE0EC",
+        quote:
+          "Do I have some basic paradigm about my spouse, about marriage, about what love really is, that is feeding the problem?",
+      },
+      {
+        timestamp: 1593946455000,
+        chapter: "Inside-Out",
+        percent: 0.0921690668202765,
+        color: "#FFE0EC",
+        quote:
+          "Could there be something I need to see in a deeper, more fundamental way—some paradigm within myself that affects the way I see my time, my life, and my own nature?",
+      },
+      {
+        timestamp: 1593946340000,
+        chapter: "Inside-Out",
+        percent: 0.0910168778801843,
+        color: "#FFE0EC",
+        quote:
+          "But is it possible that under that apparently disloyal behavior, these employees question whether I really act in their best interest? Do they feel like I’m treating them as mechanical objects? Is there some truth to that? \n\nDeep inside, is that really the way I see them? Is there a chance the way I look at the people who work for me is part of the problem?",
+      },
+      {
+        timestamp: 1593946240000,
+        chapter: "Inside-Out",
+        percent: 0.0898646889400921,
+        color: "#FFE0EC",
+        quote:
+          "The more people are into quick fix and focus on the acute problems and pain, the more that very approach contributes to the underlying chronic condition. \n\nThe way we see the problem is the problem.",
+      },
+      {
+        timestamp: 1593945914000,
+        chapter: "Inside-Out",
+        percent: 0.0852567741935484,
+        color: "#FFE0EC",
+        quote:
+          "growth, and internal discipline. And finally, it builds weakness in the relationship. Fear replaces cooperation, and both people involved become more arbitrary and defensive.",
+      },
+      {
+        timestamp: 1593945716000,
+        chapter: "Inside-Out",
+        percent: 0.0857167878787878,
+        color: "#FFE0EC",
+        quote:
+          "borrowing strength builds weakness. It builds weakness in the borrower because it reinforces dependence on external factors to get things done. It builds weakness in the person forced to acquiesce, stunting the development of independent reasoning,",
+      },
+      {
+        timestamp: 1593945260000,
+        chapter: "Inside-Out",
+        percent: 0.0806480184331798,
+        color: "#FFE0EC",
+        quote:
+          "Listening involves patience, openness, and the desire to understand—highly developed qualities of character",
+      },
+      {
+        timestamp: 1593914604000,
+        chapter: "Inside-Out",
+        percent: 0.0783444815668203,
+        color: "#FFE0EC",
+        quote:
+          "question, or revealing your ignorance—you will not learn or grow. You cannot pretend for long, for you will eventually be found out. Admission of ignorance is often the first step in our education. Thoreau taught, “How can we remember our ignorance, which our growth requires, when we are using our knowledge all the time?”",
+      },
+      {
+        timestamp: 1593914331000,
+        chapter: "Inside-Out",
+        percent: 0.0760401036866359,
+        color: "#FFE0EC",
+        quote:
+          "In all of life, there are sequential stages of growth and development",
+      },
+      {
+        timestamp: 1593765135000,
+        chapter: "Inside-Out",
+        percent: 0.0737357258064516,
+        color: "#FFE0EC",
+        quote:
+          "paradigms are aligned with these principles or natural laws, the more accurate and functional they will be. Correct maps will infinitely impact our personal and interpersonal effectiveness far more than any amount of effort expended on changing our attitudes and behaviours.",
+      },
+      {
+        timestamp: 15937647950004,
+        chapter: "Inside-Out",
+        percent: 0.0725835368663594,
+        color: "#FFE0EC",
+        quote:
+          "When these truths are internalized into habits, they empower people to create a wide variety of practices to deal with different situations.",
+      },
+      {
+        timestamp: 15937645700000,
+        chapter: "Inside-Out",
+        percent: 0.0714313479262672,
+        color: "#FFE0EC",
+        quote:
+          "There are vast differences in how fairness is defined and achieved, but there is almost universal awareness of the idea. \n\nOther examples would include integrity and honesty. They create the foundation of trust which is essential to cooperation and long-term personal and interpersonal growth.",
+      },
+      {
+        timestamp: 1593653406000,
+        chapter: "Inside-Out",
+        percent: 0.0706352416356878,
+        color: "#FFE0EC",
+        quote:
+          "The “objective reality,” or the territory itself, is composed of “lighthouse” principles that govern human growth and happiness—natural laws that are woven into the fabric of every civilized society throughout history and comprise the roots of every family and institution that has endured and prospered. The degree to which our mental maps accurately describe the territory does not alter its existence.",
+      },
+      {
+        timestamp: 1593653312000,
+        chapter: "Inside-Out",
+        percent: 0.0693957372986369,
+        color: "#FFB",
+        quote:
+          "While individuals may look at their own lives and interactions in terms of paradigms or maps emerging out of their experience and conditioning, these maps are not the territory. They are a “subjective reality,” only an attempt to describe the territory.",
+      },
+      {
+        timestamp: 15936530810001,
+        chapter: "Inside-Out",
+        percent: 0.069395737298637,
+        color: "#FFE0EC",
+        quote:
+          "Principles are like lighthouses. They are natural laws that cannot be broken.",
+      },
+      {
+        timestamp: 15936530810002,
+        chapter: "Inside-Out",
+        percent: 0.0584937299594744,
+        color: "#FFE0EC",
+        quote:
+          "“It is impossible for us to break the law. We can only break ourselves against the law.”",
+      },
+      {
+        timestamp: 1593652731000,
+        chapter: "Inside-Out",
+        percent: 0.0669175712515489,
+        color: "#FFE0EC",
+        quote:
+          "Paradigms are powerful because they create the lens through which we see the world. The power of a paradigm shift is the essential power of quantum change, whether that shift is an instantaneous or a slow and deliberate process.",
+      },
+      {
+        timestamp: 1593651449000,
+        chapter: "Inside-Out",
+        percent: 0.0607217348203221,
+        color: "#FFE0EC",
+        quote:
+          "Our paradigms, correct or incorrect, are the sources of our attitudes and behaviours, and ultimately our relationships with others.",
+      },
+      {
+        timestamp: 1593506586000,
+        chapter: "Inside-Out",
+        percent: 0.057004907063197,
+        color: "#FFE0EC",
+        quote:
+          "The more aware we are of our basic paradigms, maps, or assumptions, and the extent to which we have been influenced by our experience, the more we can take responsibility for those paradigms, examine them, test them against reality, listen to others and be open to their perceptions, thereby getting a larger picture and a far more objective view.",
+      },
+      {
+        timestamp: 15935063810001,
+        chapter: "Inside-Out",
+        percent: 0.0557654027261463,
+        color: "#FFE0EC",
+        quote:
+          "Each of us tends to think we see things as they are, that we are objective. But this is not the case. We see the world, not as it is, but as we are—or, as we are conditioned to see it. When we open our mouths to describe what we see, we in effect describe ourselves",
+      },
+      {
+        timestamp: 15935061880002,
+        chapter: "Inside-Out",
+        percent: 0.0545258983890954,
+        color: "#FFE0EC",
+        quote:
+          "To try to change outward attitudes and behaviors does very little good in the long run if we fail to examine the basic paradigms from which those attitudes and behaviors flow.",
+      },
+      {
+        timestamp: 1593345498000,
+        chapter: "Inside-Out",
+        percent: 0.0441837204818723,
+        color: "#FFE0EC",
+        quote:
+          "If ten seconds can have that kind of impact on the way we see things, what about the conditioning of a lifetime? The influences in our lives—family, school, church, work environment, friends, associates, and current social paradigms such as the Personality Ethic—all have made their silent unconscious impact on us and help shape our frame of reference, our paradigms, our maps",
+      },
+      {
+        timestamp: 1593344804000,
+        chapter: "Inside-Out",
+        percent: 0.0458518959107806,
+        color: "#FFE0EC",
+        quote:
+          "Each of us has many, many maps in our head, which can be divided into two main categories: maps of the way things are, or realities, and maps of the way things should be, or values",
+      },
+      {
+        timestamp: 1593284605000,
+        chapter: "Inside-Out",
+        percent: 0.0421350681536555,
+        color: "#FFE0EC",
+        quote:
+          "What we are communicates far more eloquently than anything we say or do. We all know it. There are people we trust absolutely because we know their character. Whether they’re eloquent or not, whether they have the human relations techniques or not, we trust them, and we work successfully with them.",
+      },
+      {
+        timestamp: 1593284366000,
+        chapter: "Inside-Out",
+        percent: 0.0396560594795538,
+        color: "#FFE0EC",
+        quote:
+          "The price must be paid and the process followed. You always reap what you sow; there is no shortcut.",
+      },
     ],
   ],
   BK02: [

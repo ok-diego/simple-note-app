@@ -42,16 +42,6 @@ const Titles = () => {
                   </React.Fragment>
                 );
               })}
-              {/* {booksJourney.map((item) => {
-                //console.log(item);
-                return (
-                  <Li key={item.titleId}>
-                    <NavLinkMenu to={`/chapters/${book._id}`}>
-                      {item.title}
-                    </NavLinkMenu>
-                  </Li>
-                );
-              })} */}
             </Ul>
           </React.Fragment>
         );
@@ -69,11 +59,11 @@ const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 5% 0 0 0;
+  padding: 3% 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
-  margin: 2% 0 0 0;
+  margin: 0 0 0 0;
 `;
 const Title = styled.h3`
   padding: 0 0 0 0;
@@ -95,7 +85,7 @@ const NavLinkMenu = styled(NavLink)`
 `;
 const DivAuthor = styled.div`
   padding: 0 0 0 0;
-  margin: 0.5rem 0 0 0;
+  margin: 0 0 0 0;
 `;
 const DivTitle = styled.div`
   font-family: var(--font-heading);

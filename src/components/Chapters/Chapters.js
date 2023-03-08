@@ -54,7 +54,7 @@ const Chapters = () => {
           })}
           {newChaptersSet.map((chapter) => {
             {
-              console.log(chapter);
+              // console.log(chapter);
             }
             return (
               <React.Fragment key={chapter}>
@@ -111,11 +111,11 @@ const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 2% 0 0 0;
+  padding: 0 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
-  margin: 2% 0 0 0;
+  margin: 0 0 0 0;
 `;
 const NavLinkMenu = styled(NavLink)`
   color: #000;
@@ -137,7 +137,7 @@ const DivChapter = styled.div`
   font-weight: 600;
   padding: 0 0 0 0;
   color: var(--color-title-primary);
-  margin: 3% 0 0 0;
+  margin: 2% 0 0 0;
 `;
 
 export default Chapters;

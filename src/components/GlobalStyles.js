@@ -6,8 +6,8 @@ export default createGlobalStyle`
         color: var(--color-foreground);
         --color-primary: #06080D;
         --color-secondary: #fff;
-        --color-title-primary: #A6588A;
-        --color-title-secondary: #c18aad;
+        --color-title-primary: #c18aad;
+        --color-title-secondary: #dbbcd0;
         --font-heading: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
         --font-body: 'Merriweather', 'Georgia', serif;
     }
@@ -64,7 +64,10 @@ export default createGlobalStyle`
       display: block;
   }
   body {
-      line-height: 1;
+      line-height: 1.75;
+      word-wrap: break-word;
+      font-kerning: normal;
+
   }
   ol, ul {
       list-style: none;

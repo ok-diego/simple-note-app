@@ -12,6 +12,8 @@ const Quotes = () => {
   const { id, chapterId } = useParams();
   //console.log(chapterId);
 
+  let quotesValues = [];
+
   return (
     responseData &&
     selectedBook && (
@@ -26,15 +28,26 @@ const Quotes = () => {
             if (book._id == id) {
               return (
                 <React.Fragment key={book._id}>
+                  {/* {book.quotes[1].sort((a, b) => a.percent - b.percent)} */}
                   {book.quotes[1].map((element) => {
                     // console.log(element);
                     if (element.chapter == chapterId) {
-                      return <Li key={element.timestamp}>{element.quote}</Li>;
+                      quotesValues.push(element.quote, element.timestamp);
+                      // return <Li key={element.timestamp}>{element.quote}</Li>;
                     }
                   })}
                 </React.Fragment>
               );
             }
+          })}
+          {quotesValues.map((quote) => {
+            quotesValues.sort((a, b) => a.timestamp - b.timestamp);
+            console.log(quote);
+            return (
+              <React.Fragment key={quote}>
+                <Li>{quote}</Li>
+              </React.Fragment>
+            );
           })}
         </Ul>
         <Footer />
@@ -67,11 +80,11 @@ const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 2% 0 0 0;
+  padding: 0 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
-  margin: 3% 0 0 0;
+  margin: 3% 0 5% 0;
 `;
 const NavLinkMenu = styled(NavLink)`
   color: #000;
