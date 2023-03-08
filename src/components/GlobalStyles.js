@@ -6,24 +6,28 @@ export default createGlobalStyle`
         color: var(--color-foreground);
         --color-primary: #06080D;
         --color-secondary: #fff;
-        --color-title-primary: #c18aad;
-        --color-title-secondary: #dbbcd0;
+        //--color-title-primary: #c18aad;
+        //--color-title-secondary: #a6588a;
         --font-heading: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
         --font-body: 'Merriweather', 'Georgia', serif;
     }
 
     [data-theme="light"] {
         --color-foreground-accent: #111111;
-        --color-foreground: #000000;
+        --color-foreground: #222;
         --color-background: #ffffff;
         --color-background-accent: #bbbbbb;
+        --color-foreground-header: #222;
+        --color-title-primary: #a6588a;
     }
 
     [data-theme="dark"] {
         --color-foreground-accent: #eeeeee;
-        --color-foreground: #ffffff;
-        --color-background: #000000;
+        --color-foreground: hsla(0,0%,100%,0.88);
+        --color-background: #282c35;
         --color-background-accent: #444444;
+        --color-foreground-header: #fff;
+        --color-title-primary: #c18aad;
     }
 
     .app {
@@ -86,7 +90,6 @@ h2,
 h3,
 label,
 button {
-  //color: var(--color-primary);
   font-family: var(--font-heading);
   font-size: 32px;
   text-align: center;
@@ -109,19 +112,18 @@ input {
 }
 
 .header {
-  //color: var(--color-title-primary);
-  color: var(--color-foreground);
+  color: var(--color-title-primary);
   font-size: 1.4rem;
   text-decoration: none;
 
   &:hover {
-    //color: var(--color-title-secondary);
-    color: var(--color-foreground);
     text-decoration: none;
   }
   &:link {
+    
   }
   &:active {
+    
   }
 }
 `;

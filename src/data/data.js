@@ -74,6 +74,14 @@ const books = {
         quote: "The carpenter’s rule is “measure twice, cut once.”",
       },
       {
+        timestamp: 1600857728000,
+        chapter: "Principles of Personal Leadership",
+        percent: 0.233874516129032,
+        color: "#FFE0EC",
+        quote:
+          "When you begin with the end in mind, you gain a different perspective. One man asked another on the death of a mutual friend, “How much did he leave?” His friend responded, “He left it all.”",
+      },
+      {
         timestamp: 1600884404000,
         chapter: "Principles of Personal Vision",
         percent: 0.224465913978495,
@@ -87,15 +95,7 @@ const books = {
         percent: 0.221778064516129,
         color: "#FFE0EC",
         quote:
-          "Don’t argue for other people’s weaknesses. Don’t argue for your own. When you make a mistake, admit it, correct it, and learn from it—immediately. Don’t get into a blaming, accusing mode. Work on things you have control over. Work on you. On be.",
-      },
-      {
-        timestamp: 1600857728000,
-        chapter: "Principles of Personal Leadership",
-        percent: 0.233874516129032,
-        color: "#FFE0EC",
-        quote:
-          "When you begin with the end in mind, you gain a different perspective. One man asked another on the death of a mutual friend, “How much did he leave?” His friend responded, “He left it all.”",
+          "Don’t argue for other people’s weaknesses. Don’t argue for your own. When you make a mistake, admit it, correct it, and learn from it—immediately. Don’t get into a blaming, accusing mode. Work on things you have control over. Work on you.",
       },
       {
         timestamp: 1600601833000,
@@ -119,14 +119,6 @@ const books = {
         color: "#FFE0EC",
         quote:
           "Our response to any mistake affects the quality of the next moment. It is important to immediately admit and correct our mistakes so that they have no power over that next moment and we are empowered again.",
-      },
-      {
-        timestamp: 1600521136000,
-        chapter: "Principles of Personal Vision",
-        percent: 0.216401612903226,
-        color: "#FFE0EC",
-        quote:
-          "The proactive approach to a mistake is to acknowledge it instantly, correct and learn from it. This literally turns a failure into a success",
       },
       {
         timestamp: 1600521004000,
@@ -153,14 +145,6 @@ const books = {
           "Proactive people aren’t pushy. They’re smart, they’re value driven, they read reality, and they know what’s needed.",
       },
       {
-        timestamp: 1600439863000,
-        chapter: "Principles of Personal Vision",
-        percent: 0.208336559139785,
-        color: "#FFE0EC",
-        quote:
-          "This man’s success was not dependent on his circumstances. Many others were in the same situation. It was his chosen response to those circumstances, his focus on his Circle of Influence, that made the difference.",
-      },
-      {
         timestamp: 1600439417001,
         chapter: "Principles of Personal Vision",
         percent: 0.201616559139785,
@@ -175,14 +159,6 @@ const books = {
         color: "#FFE0EC",
         quote:
           "By working on ourselves instead of worrying about conditions, we were able to influence the conditions",
-      },
-      {
-        timestamp: 1600436044000,
-        chapter: "Principles of Personal Vision",
-        percent: 0.197584408602151,
-        color: "#FFE0EC",
-        quote:
-          "As long as we are working in our Circle of Concern, we empower the things within it to control us. We aren’t taking the proactive initiative necessary to effect positive change.",
       },
       {
         timestamp: 1600435956000,
@@ -209,30 +185,6 @@ const books = {
           "Whatever your present situation, I assure you that you are not your habits. You can replace old patterns of self-defeating behavior with new patterns, new habits of effectiveness, happiness, and trust-based relationships.",
       },
       {
-        timestamp: 15944758570002,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.145164170506912,
-        color: "#FFE0EC",
-        quote:
-          "“That which we obtain too easily, we esteem too lightly. It is dearness only which gives everything its value. Heaven knows how to put a proper price on its goods.”",
-      },
-      {
-        timestamp: 1594475739000,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.143725783549784,
-        color: "#FFE0EC",
-        quote:
-          "you’ll find that as you care less about what others think of you, you will care more about what others think of themselves and their worlds, including their relationship with you. You’ll no longer build your emotional life on other people’s weaknesses. In addition, you’ll find it easier and more desirable to change because there is something—some core deep within—that is essentially changeless",
-      },
-      {
-        timestamp: 15943840360002,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.123274769585254,
-        color: "#FFB",
-        quote:
-          "there are three kinds of assets: physical, financial, and human",
-      },
-      {
         timestamp: 1594383922000,
         chapter: "The Seven Habits—An Overview",
         percent: 0.122122949308756,
@@ -257,20 +209,12 @@ const books = {
           "As an interdependent person, I have the opportunity to share myself deeply, meaningfully, with others, and I have access to the vast resources and potential of other human beings.",
       },
       {
-        timestamp: 1594138473000,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.116362534562212,
-        color: "#FFB",
-        quote:
-          "giving, and for receiving love from others. If I am intellectually interdependent, I realize that I need the best thinking of other people to join with my own.",
-      },
-      {
         timestamp: 1594138462000,
         chapter: "The Seven Habits—An Overview",
         percent: 0.115210276497696,
         color: "#FFB",
         quote:
-          "Interdependence is a far more mature, more advanced concept. If I am physically interdependent, I am self-reliant and capable, but I also realize that you and I working together can accomplish far more than, even at my best, I could accomplish alone. If I am emotionally interdependent, I derive a great sense of worth within myself, but I also recognize the need for love, for",
+          "Interdependence is a far more mature, more advanced concept. If I am physically interdependent, I am self-reliant and capable, but I also realize that you and I working together can accomplish far more than, even at my best, I could accomplish alone. If I am emotionally interdependent, I derive a great sense of worth within myself, but I also recognize the need for love.",
       },
       {
         timestamp: 15941383930001,
@@ -281,14 +225,6 @@ const books = {
           "Life is, by nature, highly interdependent. To try to achieve maximum effectiveness through independence is like trying to play tennis with a golf club—the tool is not suited to the reality.",
       },
       {
-        timestamp: 15941382230002,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.114058456221198,
-        color: "#FFE0EC",
-        quote:
-          "True independence of character empowers us to act rather than be acted upon. It frees us from our dependence on circumstances and other people and is a worthy, liberating goal. But it is not the ultimate goal in effective living.",
-      },
-      {
         timestamp: 1594138114000,
         chapter: "The Seven Habits—An Overview",
         percent: 0.112906198156682,
@@ -297,36 +233,12 @@ const books = {
           "But much of our current emphasis on independence is a reaction to dependence—to having others control us, define us, use us, and manipulate us.",
       },
       {
-        timestamp: 1594138096000,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.111754377880184,
-        color: "#FFE0EC",
-        quote:
-          "If I were independent, physically, I could pretty well make it on my own. Mentally, I could think my own thoughts, I could move from one level of abstraction to another. I could think creatively and analytically and organize and express my thoughts in under­standable ways. Emotionally, I would be validated from within. I would be inner directed. My sense of worth would not be a function of being liked or treated well",
-      },
-      {
         timestamp: 1594039146000,
         chapter: "The Seven Habits—An Overview",
         percent: 0.107145783410138,
         color: "#FFB",
         quote:
           "It’s sometimes a painful process. It’s a change that has to be motivated by a higher purpose, by the willingness to subordinate what you think you want now for what you want later. But this process produces happiness, “the object and design of our existence.” Happiness can be defined, in part at least, as the fruit of the desire and ability to sacrifice what we want now for what we want eventually.",
-      },
-      {
-        timestamp: 1594039020000,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.107145783410138,
-        color: "#FFE0EC",
-        quote:
-          "By working on knowledge, skill, and desire, we can break through to new levels of personal and interpersonal effectiveness as we break with old paradigms that may have been a source of pseudo-security for years.",
-      },
-      {
-        timestamp: 1594038926000,
-        chapter: "The Seven Habits—An Overview",
-        percent: 0.105993963133641,
-        color: "#FFB",
-        quote:
-          "paradigm, the what to do and the why. Skill is the how to do. And desire is the motivation, the want to do. In order to make something a habit in our lives, we have to have all three.",
       },
       {
         timestamp: 15940388150002,
@@ -342,7 +254,7 @@ const books = {
         percent: 0.103689884792627,
         color: "#FFE0EC",
         quote:
-          "Habits, too, have tremendous gravity pull—more than most people realize or would admit. Breaking deeply imbedded habitual tendencies such as procrastination, impatience, criticalness, or selfishness that violate",
+          "Habits, too, have tremendous gravity pull—more than most people realize or would admit. Breaking deeply imbedded habitual tendencies such as procrastination, impatience, criticalness, or selfishness...",
       },
       {
         timestamp: 1594038692000,
@@ -358,7 +270,7 @@ const books = {
         percent: 0.102537626728111,
         color: "#FFE0EC",
         quote:
-          "We are what we repeatedly do. Excellence, then, is not an act, but a habit. \n\nAristotle",
+          "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
       },
       {
         timestamp: 15940304110001,
@@ -375,30 +287,6 @@ const books = {
         color: "#FFB",
         quote:
           "It says it is futile to put personality ahead of character, to try to improve relationships with others before improving ourselves.",
-      },
-      {
-        timestamp: 15939989770001,
-        chapter: "Inside-Out",
-        percent: 0.0956247926267281,
-        color: "#FFE0EC",
-        quote:
-          "We need a new level, a deeper level of thinking—a paradigm based on the principles that accurately describe the territory of effective human being and interacting—to solve these deep concerns.",
-      },
-      {
-        timestamp: 15939989770002,
-        chapter: "Inside-Out",
-        percent: 0.0956247926267282,
-        color: "#FFE0EC",
-        quote:
-          "a principle-centered, character-based, “inside-out” approach to personal and interpersonal effectiveness.",
-      },
-      {
-        timestamp: 1593998807000,
-        chapter: "Inside-Out",
-        percent: 0.0943747878787878,
-        color: "#FFE0EC",
-        quote:
-          "Albert Einstein observed, “The significant problems we face cannot be solved at the same level of thinking we were at when we created them.”",
       },
       {
         timestamp: 1593998476000,
@@ -449,20 +337,12 @@ const books = {
           "borrowing strength builds weakness. It builds weakness in the borrower because it reinforces dependence on external factors to get things done. It builds weakness in the person forced to acquiesce, stunting the development of independent reasoning,",
       },
       {
-        timestamp: 1593945260000,
-        chapter: "Inside-Out",
-        percent: 0.0806480184331798,
-        color: "#FFE0EC",
-        quote:
-          "Listening involves patience, openness, and the desire to understand—highly developed qualities of character",
-      },
-      {
         timestamp: 1593914604000,
         chapter: "Inside-Out",
         percent: 0.0783444815668203,
         color: "#FFE0EC",
         quote:
-          "question, or revealing your ignorance—you will not learn or grow. You cannot pretend for long, for you will eventually be found out. Admission of ignorance is often the first step in our education. Thoreau taught, “How can we remember our ignorance, which our growth requires, when we are using our knowledge all the time?”",
+          "Admission of ignorance is often the first step in our education. Thoreau taught, “How can we remember our ignorance, which our growth requires, when we are using our knowledge all the time?”",
       },
       {
         timestamp: 1593914331000,
@@ -478,23 +358,7 @@ const books = {
         percent: 0.0737357258064516,
         color: "#FFE0EC",
         quote:
-          "paradigms are aligned with these principles or natural laws, the more accurate and functional they will be. Correct maps will infinitely impact our personal and interpersonal effectiveness far more than any amount of effort expended on changing our attitudes and behaviours.",
-      },
-      {
-        timestamp: 15937647950004,
-        chapter: "Inside-Out",
-        percent: 0.0725835368663594,
-        color: "#FFE0EC",
-        quote:
-          "When these truths are internalized into habits, they empower people to create a wide variety of practices to deal with different situations.",
-      },
-      {
-        timestamp: 15937645700000,
-        chapter: "Inside-Out",
-        percent: 0.0714313479262672,
-        color: "#FFE0EC",
-        quote:
-          "There are vast differences in how fairness is defined and achieved, but there is almost universal awareness of the idea. \n\nOther examples would include integrity and honesty. They create the foundation of trust which is essential to cooperation and long-term personal and interpersonal growth.",
+          "Correct maps will infinitely impact our personal and interpersonal effectiveness far more than any amount of effort expended on changing our attitudes and behaviours.",
       },
       {
         timestamp: 1593653406000,
@@ -583,22 +447,6 @@ const books = {
         color: "#FFE0EC",
         quote:
           "Each of us has many, many maps in our head, which can be divided into two main categories: maps of the way things are, or realities, and maps of the way things should be, or values",
-      },
-      {
-        timestamp: 1593284605000,
-        chapter: "Inside-Out",
-        percent: 0.0421350681536555,
-        color: "#FFE0EC",
-        quote:
-          "What we are communicates far more eloquently than anything we say or do. We all know it. There are people we trust absolutely because we know their character. Whether they’re eloquent or not, whether they have the human relations techniques or not, we trust them, and we work successfully with them.",
-      },
-      {
-        timestamp: 1593284366000,
-        chapter: "Inside-Out",
-        percent: 0.0396560594795538,
-        color: "#FFE0EC",
-        quote:
-          "The price must be paid and the process followed. You always reap what you sow; there is no shortcut.",
       },
     ],
   ],

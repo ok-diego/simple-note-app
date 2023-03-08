@@ -32,32 +32,3 @@
 // };
 
 // batchImport();
-
-const dotenv = require("dotenv").config();
-
-const { MongoClient } = require("mongodb");
-
-const mongoClient = new MongoClient(process.env.MONGODB_URI);
-
-const clientPromise = mongoClient.connect();
-
-const { books } = require("./data/data");
-
-const batchImport = async (event, context) => {
-  try {
-    const database = (await clientPromise).db(process.env.MONGODB_DATABASE);
-    const collection = database.collection(process.env.MONGODB_COLLECTION);
-    const insertArray = [{ _id: "BK03", quotes: books.BK03 }];
-    const results = await collection(collection).insertMany(insertArray);
-
-    //return results;
-    return {
-      statusCode: 200,
-      body: JSON.stringify(results),
-    };
-  } catch (error) {
-    return { statusCode: 500, body: error.toString() };
-  }
-};
-
-batchImport();

@@ -23,13 +23,11 @@ const Wrapper = styled.div`
   margin-bottom: 2.625rem;
 `;
 const NavLinkLogo = styled(NavLink)`
-  color: var(--color-foreground);
+  color: var(--color-foreground-header);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
 
   &:hover {
-    //color: rgba(0, 0, 0, 0.8);
-    //color: var(--color-foreground);
     text-decoration: none;
   }
   &:link {
@@ -37,6 +35,5 @@ const NavLinkLogo = styled(NavLink)`
   &:active {
   }
 `;
-// const Theme = styled.div``;
 
 export default Header;

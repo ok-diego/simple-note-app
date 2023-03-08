@@ -19,21 +19,18 @@ const Quotes = () => {
     selectedBook && (
       <Wrapper>
         <Header header />
-        <Title>Quotes</Title>
-        {/* {console.log(responseData)} */}
+        <NavLinkMenu to={`/chapters/${id}`}>
+          <Title>Quotes</Title>
+        </NavLinkMenu>
         <Ul>
           {responseData.map((book) => {
-            // {console.log(book._id)}
-
             if (book._id == id) {
               return (
                 <React.Fragment key={book._id}>
-                  {/* {book.quotes[1].sort((a, b) => a.percent - b.percent)} */}
-                  {book.quotes[1].map((element) => {
+                  {book.quotes[1].forEach((element) => {
                     // console.log(element);
                     if (element.chapter == chapterId) {
                       quotesValues.push(element.quote);
-                      // quotesValues.sort((a, b) => a.timestamp - b.timestamp);
                       // return <Li key={element.timestamp}>{element.quote}</Li>;
                     }
                   })}
@@ -41,10 +38,8 @@ const Quotes = () => {
               );
             }
           })}
-          {quotesValues.map((quote) => {
-            // if (typeof quote !== "number") {
-            //   console.log(quote);
-            // }
+          {/* reverse quotes order and return each quote */}
+          {quotesValues.reverse().map((quote) => {
             return (
               <React.Fragment key={quote}>
                 <Li>{quote}</Li>
@@ -77,6 +72,7 @@ const Main = styled.ul`
 `;
 const Title = styled.h3`
   font-family: var(--font-heading);
+  color: var(--color-foreground-header);
 `;
 const Ul = styled.ul`
   margin: 0 0 0 0;
@@ -95,7 +91,7 @@ const NavLinkMenu = styled(NavLink)`
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
-    text-decoration: underline;
+    text-decoration: none;
   }
   &:link {
   }

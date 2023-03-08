@@ -68,6 +68,7 @@ const Li = styled.li`
 const Title = styled.h3`
   padding: 0 0 0 0;
   font-family: var(--font-heading);
+  color: var(--color-foreground-header);
 `;
 const NavLinkMenu = styled(NavLink)`
   text-decoration: none;

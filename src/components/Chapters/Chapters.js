@@ -106,6 +106,7 @@ const Main = styled.ul`
 `;
 const Title = styled.h3`
   font-family: var(--font-heading);
+  color: var(--color-foreground-header);
 `;
 const Ul = styled.ul`
   margin: 0 0 0 0;

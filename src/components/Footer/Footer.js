@@ -49,20 +49,20 @@ const Li = styled.li`
   padding: 0 0 0 0;
 `;
 const NavLinkMenu = styled(NavLink)`
-  color: var(--color-foreground);
+  color: var(--color-title-primary);
   text-decoration: underline;
   font-size: 0.9rem;
 
   &:hover {
     //color: rgba(0, 0, 0, 0.8);
-    color: var(--color-foreground);
+    color: var(--color-title-primary);
     text-decoration: none;
   }
   &:link {
-    color: var(--color-foreground);
+    color: var(--color-title-primary);
   }
   &:active {
-    color: var(--color-foreground);
+    color: var(--color-title-primary);
   }
 `;
 
