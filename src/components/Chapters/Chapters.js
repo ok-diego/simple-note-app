@@ -43,6 +43,10 @@ const Chapters = () => {
                   {book.quotes[1].forEach((element) => {
                     chaptersValues.push(element.chapter);
                     newChaptersSet = [...new Set(chaptersValues)];
+                    // sort chapters in alphabetical order
+                    newChaptersSet.sort((a, b) =>
+                      a === b ? 0 : a > b ? 1 : -1
+                    );
                   })}
                 </React.Fragment>
               );

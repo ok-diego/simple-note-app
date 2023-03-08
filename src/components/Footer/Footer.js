@@ -7,7 +7,8 @@ const Footer = () => {
       <Ul>
         <Li>
           <NavLinkMenu
-            to={{ pathname: "https://github.com/ok-diego" }}
+            as="a"
+            href="https://github.com/ok-diego"
             target="_blank"
           >
             GitHub
@@ -16,9 +17,8 @@ const Footer = () => {
         <Li>・</Li>
         <Li>
           <NavLinkMenu
-            to={{
-              pathname: "https://www.linkedin.com/in/diego-alexander-dev/",
-            }}
+            as="a"
+            href="https://www.linkedin.com/in/diego-alexander-dev/"
             target="_blank"
           >
             Linkedin

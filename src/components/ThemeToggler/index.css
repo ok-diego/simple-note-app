@@ -46,9 +46,9 @@
 }
 
 .theme-toggle-input:checked + .theme-toggle-slider:before {
-  -webkit-transform: translateX(1.8rem);
-  -ms-transform: translateX(1.8rem);
-  transform: translateX(1.8rem);
+  -webkit-transform: translateX(2rem);
+  -ms-transform: translateX(2rem);
+  transform: translateX(2rem);
   -webkit-box-shadow: 0px 0px 5px 3px #a6588a;
   box-shadow: 0px 0px 5px 3px #a6588a;
 }
