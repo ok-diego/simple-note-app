@@ -41,7 +41,7 @@ const Quotes = () => {
               );
             }
           })}
-          {quotesValues.filter((quote) => {
+          {quotesValues.map((quote) => {
             // if (typeof quote !== "number") {
             //   console.log(quote);
             // }
