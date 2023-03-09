@@ -107,8 +107,8 @@ const Ul = styled.ul`
   font-weight: 300;
 `;
 const Li = styled.li`
-  padding: 0 0 0 0;
   margin: 0 0 0 0;
+  padding: 0 0 0 0;
 `;
 const NavLinkMenu = styled(NavLink)`
   color: #000;
@@ -130,7 +130,7 @@ const DivChapter = styled.div`
   font-weight: 600;
   padding: 0 0 0 0;
   color: var(--color-title-primary);
-  margin: 2% 0 0 0;
+  margin: 3% 0 0 0;
 `;
 
 export default Chapters;

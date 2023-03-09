@@ -31,11 +31,11 @@ const Titles = () => {
                 // console.log(element);
                 return (
                   <React.Fragment key={element.readingJourney.titleId}>
-                    <Li>
+                    <LiTitle>
                       <NavLinkMenu to={`/chapters/${book._id}`}>
                         <DivTitle>{element.readingJourney.title}</DivTitle>
                       </NavLinkMenu>
-                    </Li>
+                    </LiTitle>
                     <Li>
                       <DivAuthor>{element.readingJourney.author}</DivAuthor>
                     </Li>
@@ -59,11 +59,15 @@ const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 3% 0 0 0;
+  padding: 0 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+`;
+const LiTitle = styled.li`
+  padding: 0 0 0 0;
+  margin: 1rem 0 0 0;
 `;
 const Title = styled.h3`
   padding: 0 0 0 0;
@@ -86,7 +90,6 @@ const NavLinkMenu = styled(NavLink)`
 `;
 const DivAuthor = styled.div`
   padding: 0 0 0 0;
-  margin: 0 0 0 0;
 `;
 const DivTitle = styled.div`
   font-family: var(--font-heading);

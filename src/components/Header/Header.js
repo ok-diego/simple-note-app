@@ -25,7 +25,6 @@ const Wrapper = styled.div`
 const NavLinkLogo = styled(NavLink)`
   color: var(--color-foreground-header);
   text-decoration: none;
-  font-size: 1.25rem;
 
   &:hover {
     text-decoration: none;

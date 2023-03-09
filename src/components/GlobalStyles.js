@@ -113,7 +113,7 @@ input {
 
 .header {
   color: var(--color-title-primary);
-  font-size: 1.4rem;
+  font-size: 1.425rem;
   text-decoration: none;
 
   &:hover {
