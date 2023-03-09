@@ -39,7 +39,7 @@
   left: 1px;
   bottom: 0px;
   border-radius: 50%;
-  background-color: var(--color-foreground);
+  background-color: var(--color-foreground-header);
   -webkit-transition: 0.4s;
   transition: 0.4s;
   z-index: -1;
@@ -69,6 +69,6 @@
   position: absolute;
   height: 1.25rem;
   width: 1.25rem;
-  right: 4px;
+  right: 2px;
   bottom: 3px;
 }

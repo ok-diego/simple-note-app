@@ -63,13 +63,6 @@ const Wrapper = styled.div`
   margin: auto;
   padding: 2.625rem 1.3125rem;
 `;
-const Main = styled.ul`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-self: flex-start;
-`;
 const Title = styled.h3`
   font-family: var(--font-heading);
   color: var(--color-foreground-header);
@@ -78,7 +71,6 @@ const Ul = styled.ul`
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   font-weight: 300;
-  padding: 0 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
