@@ -20,7 +20,7 @@ const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   width: 100%;
-  margin-bottom: 2.625rem;
+  padding-bottom: 2.625rem;
 `;
 const NavLinkLogo = styled(NavLink)`
   color: var(--color-foreground-header);

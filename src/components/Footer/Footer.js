@@ -30,8 +30,8 @@ const Footer = () => {
 };
 const Wrapper = styled.div`
   display: flex;
-  justify-content: flex-start;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: flex-end;
   align-content: flex-start;
   width: 100%;
