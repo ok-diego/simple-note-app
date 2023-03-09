@@ -1,10 +1,11 @@
 import styled from "styled-components";
 import React, { useContext } from "react";
 import { SimpleContext } from "../SimpleContext";
-import Titles from "../Titles/Titles";
-import Chapters from "../Chapters/Chapters";
+import Titles from "../Titles";
+import Chapters from "../Chapters";
 import Header from "../Header";
 import Footer from "../Footer";
+import About from "../About";
 
 const Home = () => {
   const { responseData } = useContext(SimpleContext);
@@ -13,6 +14,7 @@ const Home = () => {
     responseData && (
       <Wrapper>
         <Header />
+        <About />
         <Titles />
         <Footer />
       </Wrapper>

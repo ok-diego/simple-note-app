@@ -95,6 +95,7 @@ const Wrapper = styled.div`
   max-width: 42rem;
   height: 100vh;
   margin: auto;
+  padding: 2.625rem 1.3125rem;
 `;
 const Title = styled.h3`
   font-family: var(--font-heading);
