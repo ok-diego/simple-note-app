@@ -36,7 +36,7 @@ const Wrapper = styled.div`
   align-content: flex-start;
   width: 100%;
   height: 100vh;
-  padding: 0 0 0 0;
+  padding: 0 0 0.75rem 0;
   margin-top: 2.625rem;
   font-weight: 200;
 `;
