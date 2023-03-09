@@ -58,7 +58,7 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  max-width: 42rem;
+  max-width: 41rem;
   height: 100vh;
   margin: auto;
   padding: 2.625rem 1.3125rem;

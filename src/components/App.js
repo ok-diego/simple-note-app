@@ -11,12 +11,20 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/chapters/:id" element={<Chapters />} />
-        <Route path="/quotes/:id/:chapterId" element={<Quotes />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/chapters/:id" element={<Chapters />} />
+          <Route path="/quotes/:id/:chapterId" element={<Quotes />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
   );
 }
+const Layout = styled.div`
+  /* max-width: 42rem;
+  height: 100vh;
+  margin: auto;
+  padding: 0rem 1.3125rem; */
+`;
 export default App;
