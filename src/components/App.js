@@ -17,14 +17,19 @@ function App() {
           <Route path="/chapters/:id" element={<Chapters />} />
           <Route path="/quotes/:id/:chapterId" element={<Quotes />} />
         </Routes>
+        <Footer />
       </Layout>
     </BrowserRouter>
   );
 }
 const Layout = styled.div`
-  /* max-width: 42rem;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 42rem;
+  /* height: 100vh; */
   margin: auto;
-  padding: 0rem 1.3125rem; */
+  padding: 2.625rem 1.3125rem;
+  //flex-wrap: wrap;
 `;
 export default App;

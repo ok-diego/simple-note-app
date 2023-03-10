@@ -35,9 +35,11 @@ const Wrapper = styled.div`
   align-items: flex-end;
   align-content: flex-start;
   width: 100%;
-  height: 100vh;
-  padding: 0 0 0.75rem 0;
-  margin-top: 2.625rem;
+  height: 56px;
+  //padding: 0 0 0.75rem 0;
+  //margin-top: 2.625rem;
+  margin-top: 4.375rem;
+  padding-top: 1.75rem;
   font-weight: 200;
 `;
 const Ul = styled.ul`

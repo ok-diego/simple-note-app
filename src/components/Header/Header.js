@@ -16,11 +16,16 @@ const Header = (props) => {
 };
 const Wrapper = styled.div`
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-bottom: 2.625rem;
+  height: 42px;
+  margin-bottom: 2.625rem;
+  margin-left: auto;
+  margin-right: auto;
+  // flex grow / shrink / basis
+  flex: 0 1 0;
 `;
 const NavLinkLogo = styled(NavLink)`
   color: var(--color-foreground-header);

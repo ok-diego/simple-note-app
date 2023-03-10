@@ -54,12 +54,12 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  width: 100%;
+  margin: auto;
 `;
 const Ul = styled.ul`
+  padding: 0 0 0 0;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  font-weight: 300;
-  padding: 0 0 0 0;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
@@ -67,7 +67,7 @@ const Li = styled.li`
 `;
 const LiTitle = styled.li`
   padding: 0 0 0 0;
-  margin: 1rem 0 0 0;
+  padding: 1rem 0 0 0;
 `;
 const Title = styled.h3`
   padding: 0 0 0 0;

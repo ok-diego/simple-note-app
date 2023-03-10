@@ -80,7 +80,7 @@ const Chapters = () => {
             );
           })} */}
         </Ul>
-        <Footer />
+        {/* <Footer /> */}
       </Wrapper>
     )
   );
@@ -92,10 +92,11 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  max-width: 42rem;
-  height: 100vh;
+  //max-width: 42rem;
+  width: 100%;
+  //height: 100vh;
   margin: auto;
-  padding: 2.625rem 1.3125rem;
+  /* padding: 2.625rem 1.3125rem; */
 `;
 const Title = styled.h3`
   font-family: var(--font-heading);

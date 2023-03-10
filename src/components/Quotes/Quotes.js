@@ -22,22 +22,22 @@ const Quotes = () => {
         <NavLinkMenu to={`/chapters/${id}`}>
           <Title>Quotes</Title>
         </NavLinkMenu>
+        {responseData.map((book) => {
+          if (book._id == id) {
+            return (
+              <React.Fragment key={book._id}>
+                {book.quotes[1].forEach((element) => {
+                  // console.log(element);
+                  if (element.chapter == chapterId) {
+                    quotesValues.push(element.quote);
+                    // return <Li key={element.timestamp}>{element.quote}</Li>;
+                  }
+                })}
+              </React.Fragment>
+            );
+          }
+        })}
         <Ul>
-          {responseData.map((book) => {
-            if (book._id == id) {
-              return (
-                <React.Fragment key={book._id}>
-                  {book.quotes[1].forEach((element) => {
-                    // console.log(element);
-                    if (element.chapter == chapterId) {
-                      quotesValues.push(element.quote);
-                      // return <Li key={element.timestamp}>{element.quote}</Li>;
-                    }
-                  })}
-                </React.Fragment>
-              );
-            }
-          })}
           {/* reverse quotes order and return each quote */}
           {quotesValues.reverse().map((quote) => {
             return (
@@ -47,7 +47,7 @@ const Quotes = () => {
             );
           })}
         </Ul>
-        <Footer />
+        {/* <Footer /> */}
       </Wrapper>
     )
   );
@@ -58,19 +58,23 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  max-width: 41rem;
-  height: 100vh;
+  //max-width: 41rem;
+  width: 100%;
+  //height: 100vh;
   margin: auto;
-  padding: 2.625rem 1.3125rem;
+  /* padding: 2.625rem 0; */
+  flex-flow: column wrap;
 `;
 const Title = styled.h3`
   font-family: var(--font-heading);
   color: var(--color-foreground-header);
 `;
 const Ul = styled.ul`
+  display: flex;
+  flex-direction: column;
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  font-weight: 300;
+  flex: 0 1 100%;
 `;
 const Li = styled.li`
   padding: 0 0 0 0;
@@ -79,7 +83,6 @@ const Li = styled.li`
 const NavLinkMenu = styled(NavLink)`
   color: #000;
   text-decoration: none;
-  font-size: 1rem;
 
   &:hover {
     color: rgba(0, 0, 0, 0.8);
