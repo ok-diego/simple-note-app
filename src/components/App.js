@@ -22,14 +22,18 @@ function App() {
     </BrowserRouter>
   );
 }
+const width = 42;
 const Layout = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   max-width: 42rem;
-  /* height: 100vh; */
-  margin: auto;
+  margin: 0 auto 0 calc(50vw - ${width / 2}rem);
   padding: 2.625rem 1.3125rem;
-  //flex-wrap: wrap;
+
+  @media only screen and (max-width: 42rem) {
+    margin: auto;
+  }
 `;
+
 export default App;

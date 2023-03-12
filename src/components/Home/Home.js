@@ -27,11 +27,9 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  //max-width: 42rem;
   width: 100%;
-  //min-height: 100vh;
   margin: auto;
-  /* padding: 2.625rem 1.3125rem; */
+  // flex grow / shrink / basis
   flex: 0 1 0;
 `;
 

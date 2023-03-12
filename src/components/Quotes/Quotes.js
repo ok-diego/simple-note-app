@@ -58,11 +58,8 @@ const Wrapper = styled.div`
   justify-content: flex-start;
   align-content: flex-start;
   align-items: flex-start;
-  //max-width: 41rem;
   width: 100%;
-  //height: 100vh;
   margin: auto;
-  /* padding: 2.625rem 0; */
   flex-flow: column wrap;
 `;
 const Title = styled.h3`
